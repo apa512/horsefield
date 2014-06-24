@@ -1,0 +1,880 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.linkedin.com/in/lunarmobiscuit
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      P3p:
+      - CP="CAO CUR ADM DEV PSA PSD OUR"
+      Vary:
+      - Accept-Encoding
+      Last-Modified:
+      - Mon, 23 Jun 2014 00:23:56 GMT
+      Content-Type:
+      - text/html;charset=UTF-8
+      Content-Language:
+      - en-US
+      Date:
+      - Tue, 24 Jun 2014 17:55:37 GMT
+      X-Fs-Uuid:
+      - 5d1335fd5ab47a131064b8d5172b0000
+      X-Li-Uuid:
+      - XRM1/Vq0ehMQZLjVFysAAA==
+      Content-Length:
+      - '16100'
+      X-Frame-Options:
+      - sameorigin
+      X-Content-Type-Options:
+      - nosniff
+      X-Li-Fabric:
+      - PROD-ELA4
+      Set-Cookie:
+      - JSESSIONID="ajax:2038187983206922454"; Version=1; Domain=.www.linkedin.com;
+        Path=/
+      - _lipt=deleteMe; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+      - bcookie="v=2&2fbabafa-a204-4862-84ee-6c0e1fec54db"; domain=.linkedin.com;
+        Path=/; Expires=Fri, 24-Jun-2016 05:33:09 GMT
+      - lang="v=2&lang=en-us"; Version=1; Domain=linkedin.com; Path=/
+      - leo_auth_token="GST:ZZ9z59TNo27oTrmJxrUzAazZC77gKaXBHA9333KcoIqgMLM-j-pA5W:1403632536:a63aba0ee31a0194aef0c71bbaae74f7fc3a6b1d";
+        Version=1; Max-Age=1799; Expires=Tue, 24-Jun-2014 18:25:35 GMT; Path=/
+      - lidc="b=LB33:g=82:u=1:i=1403632536:t=1403718936:s=767121946"; Expires=Wed,
+        25 Jun 2014 17:55:36 GMT; domain=.linkedin.com; Path=/
+      - s_leo_auth_token="delete me"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970
+        00:00:10 GMT; Path=/
+      - sl="delete me"; Version=1; Domain=.www.linkedin.com; Max-Age=0; Expires=Thu,
+        01-Jan-1970 00:00:10 GMT; Path=/
+      - sl="delete me"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT;
+        Path=/
+      - visit="v=1&G"; Version=1; Max-Age=63072000; Expires=Thu, 23-Jun-2016 17:55:36
+        GMT; Path=/
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store
+      Connection:
+      - keep-alive
+      X-Li-Pop:
+      - PROD-ELA4
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<!--[if lt IE 7]> <html lang=\"en\" class=\"ie ie6
+        lte9 lte8 lte7 os-other\"> <![endif]-->\n<!--[if IE 7]> <html lang=\"en\"
+        class=\"ie ie7 lte9 lte8 lte7 os-other\"> <![endif]-->\n<!--[if IE 8]> <html
+        lang=\"en\" class=\"ie ie8 lte9 lte8 os-other\"> <![endif]-->\n<!--[if IE
+        9]> <html lang=\"en\" class=\"ie ie9 lte9 os-other\"> <![endif]-->\n<!--[if
+        gt IE 9]> <html lang=\"en\" class=\"os-other\"> <![endif]-->\n<!--[if !IE]><!-->
+        <html lang=\"en\" class=\"os-other\"> <!--<![endif]-->\n<head>\n<meta name=\"lnkd-track-json-lib\"
+        content=\"http://s.c.lnkd.licdn.com/scds/concat/common/js?h=2jds9coeh4w78ed9wblscv68v-ebbt2vixcc5qz0otts5io08xv&amp;fc=2\">\n<meta
+        name=\"lnkd-track-lib\" content=\"http://s.c.lnkd.licdn.com/scds/concat/common/js?h=ebbt2vixcc5qz0otts5io08xv&amp;fc=2\">\n<meta
+        name=\"treeID\" content=\"XRM1/Vq0ehMQZLjVFysAAA==\">\n<meta name=\"appName\"
+        content=\"profile\">\n<meta name=\"lnkd-track-error\" content=\"/lite/ua/error?csrfToken=ajax%3A2038187983206922454\">\n<script
+        src=\"http://static.licdn.com:80/scds/common/u/lib/fizzy/fz-1.3.5-min.js\"
+        type=\"text/javascript\"></script><script type=\"text/javascript\">fs.config({\"failureRedirect\":\"http://www.linkedin.com/nhome/\",\"uniEscape\":true,\"xhrHeaders\":{\"X-FS-Origin-Request\":\"/in/lunarmobiscuit\",\"X-FS-Page-Id\":\"nprofile-public-vanity\"}});</script><script
+        type=\"text/javascript\" src=\"http://s.c.lnkd.licdn.com/scds/concat/common/js?h=3nuvxgwg15rbghxm1gpzfbya2-35e6ug1j754avohmn1bzmucat-mv3v66b8q0h1hvgvd3yfjv5f-14k913qahq3mh0ac0lh0twk9v&amp;fc=2\"></script>\n<meta
+        http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=edge\">\n<meta name=\"pageImpressionID\" content=\"232d78aa-5a09-4529-9a85-6ae35ee0cf84\">\n<meta
+        name=\"pageKey\" content=\"nprofile-public-success\">\n<meta name=\"analyticsURL\"
+        content=\"/analytics/noauthtracker\">\n<link rel=\"apple-touch-icon-precomposed\"
+        href=\"http://s.c.lnkd.licdn.com/scds/common/u/img/icon/apple-touch-icon.png\">\n<!--[if
+        lte IE 8]>\n  <link rel=\"shortcut icon\" href=\"http://s.c.lnkd.licdn.com/scds/common/u/images/logos/favicons/v1/16x16/favicon.ico\">\n<![endif]-->\n<!--[if
+        IE 9]>\n  <link rel=\"shortcut icon\" href=\"http://s.c.lnkd.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico\">\n<![endif]-->\n<link
+        rel=\"icon\" href=\"http://s.c.lnkd.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico\">\n<meta
+        name=\"msapplication-TileImage\" content=\"http://s.c.lnkd.licdn.com/scds/common/u/images/logos/linkedin/logo-in-win8-tile-144_v1.png\"/>\n<meta
+        name=\"msapplication-TileColor\" content=\"#0077B5\"/>\n<meta name=\"application-name\"
+        content=\"LinkedIn\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://s.c.lnkd.licdn.com/scds/concat/common/css?h=3bifs78lai5i0ndyj1ew7316e-95xknohzchgiqewqdn10w97eq-7mxyksftlcjzimz2r05hd289r-4uu2pkz5u0jch61r2nhpyyrn8-aze4ooami6s3kk293iv0zfky1-7poavrvxlvh0irzkbnoyoginp-4om4nn3a2z730xs82d78xj3be-29rwei6xdu369y7kdzx9njvdy-ct4kfyj4tquup0bvqhttvymms-9zbbsrdszts09by60it4vuo3q-cjn95l493mkfqfc06i462jhjl-8ti9u6z5f55pestwbmte40d9-dro7ip2owrag9avfjalkgrvj8-3pwwsn1udmwoy3iort8vfmygt-cfsam81o5sp3cxb7m0hs933c4&amp;fc=2\">\n<script
+        type=\"text/javascript\" src=\"http://s.c.lnkd.licdn.com/scds/concat/common/js?h=dfoaudjrk6rbf82f45bz5crwi-62og8s54488owngg0s7escdit-c8ha6zrgpgcni7poa5ctye7il-djim7uyllidc9gta745y2wo5m-51dv6schthjydhvcv6rxvospp-d7z5zqt26qe7ht91f8494hqx5-e9rsfv7b5gx0bk0tln31dx3sq-2r5gveucqe4lsolc3n0oljsn1-8v2hz0euzy8m1tk5d6tfrn6j-b88qxy99s08xoes3weacd08uc-bymlr3eiytxzjg9or01ze5ia8-ac8pg92mfnb2j836ntpvg1fsi-8s85e76fq22lk42rfavbckpvb-lyi4ca0d33mbzhvnuf1wvqjp-80pbsa4obuk9pkni9fepx3r1u-b0otj9zjsih2zu4s3gxjejik2-czstax4e6y68hymdvqxpwe5so-b0fmwulzun5h9v3vouth2gf36-28z3ukvmh5r9vwyyw1m6jl0pm-1pa3tpaab6s85oxj5wgz5m0p7&amp;fc=2\"></script>\n<script
+        type=\"text/javascript\" src=\"http://s.c.lnkd.licdn.com/scds/concat/common/js?h=6b5tomv24hymqjdn9yh9vdxyg-95d8d303rtd0n9wj4dcjbnh2c&amp;fc=2\"></script>\n<meta
+        name=\"description\" content=\"View Michael &amp;#39;Luni&amp;#39; Libes&#39;s
+        professional profile on LinkedIn.  LinkedIn is the world&#39;s largest business
+        network, helping professionals like Michael &amp;#39;Luni&amp;#39; Libes discover
+        inside connections to recommended job candidates, industry experts, and business
+        partners.\">\n<title>Michael &#39;Luni&#39; Libes | LinkedIn</title>\n<meta
+        name=\"robots\" content=\"noarchive\">\n<link rel=\"stylesheet\" type=\"text/css\"
+        href=\"http://s.c.lnkd.licdn.com/scds/concat/common/css?h=5sivejqbgxhtps6uivx0lmguh-dk7hqlxjwmf0a9kuko97hr6lv-efnwlv96zujghl3vut1jrhf1q-5xxmkfcm1ny97biv0pwj7ch69-b19pi9ifjz3sg0sog0jfcq72g&amp;fc=2\">\n<script
+        type=\"text/javascript\" src=\"http://s.c.lnkd.licdn.com/scds/concat/common/js?h=d43qahhuvg0j5mlh4c2m9sipk-ew7wxbzv14lsc4vzkh2xrbzqn-dp1os5pzpoyifn8ljtjpfxrz-e17zy6z51dugr6fy4su92o7de-eq875keqggun9hoxzfhbanjes&amp;fc=2\"></script>\n</head>\n<body
+        dir=\"ltr\" class=\"guest v2 public-profile chrome-v5 chrome-v5-responsive
+        sticky-bg guest\" id=\"pagekey-nprofile-public-success\">\n<input id=\"inSlowConfig\"
+        type=\"hidden\" value=\"false\"/>\n<script type=\"text/javascript\">document.body.className
+        += \" js \";</script>\n<div id=\"header\">\n<div class=\"wrapper\">\n<div
+        id=\"nav-utility\">\n<div class=\"logo\" id=\"logo-linkedin\">\n<a href=\"/home?trk=hb_logo\"
+        id=\"logo-href\"><img src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/logos/logo_linkedin_92x22.png\"
+        width=\"92\" height=\"22\" alt=\"LinkedIn\"></a>\n</div>\n<ul class=\"menu\">\n<li
+        id=\"nav-utility-join\"><a href=\"https://www.linkedin.com/reg/join?trk=hb_join\">Join
+        Today</a></li>\n<li id=\"nav-utility-auth\"><a href=\"https://www.linkedin.com/uas/login?trk=hb_signin\">Sign
+        In</a></li>\n</ul>\n</div>\n</div> </div>\n<div id=\"body\">\n<div class=\"wrapper\">\n<div
+        id=\"global-error\">\n</div>\n<div id=\"main\" class=\"profile grid-a\">\n<div
+        id=\"content\" class=\"resume hresume\">\n<div class=\"profile-header\">\n<div
+        id=\"member-1\" class=\"masthead vcard contact\">\n<div class=\"image zoomable\"
+        style=\"display:block\" id=\"profile-picture\">\n<img src=\"http://m.c.lnkd.licdn.com/mpr/pub/image-pgbUP81FFrcM1GmgfbslxdiqAq2r578m0XbAipjDAhrBVyQ8pgbAiNnFAT8E5IEw_jMT/michael-luni-libes.jpg\"
+        class=\"photo\" width=\"100\" height=\"100\" alt=\"Michael &#39;Luni&#39;
+        Libes\">\n</div>\n<h1>\n<span id=\"name\" class=\"n fn\">\n<span class=\"full-name\"><span
+        class=\"given-name\">Michael &#39;Luni&#39;</span> <span class=\"family-name\">Libes</span></span>\n</span>\n</h1>\n<p
+        class=\"headline-title title\" style=\"display:block\">\nSerial Entrepreneur,
+        Mentor, Advisor, and Educator\n</p>\n<dl id=\"headline\" class=\"demographic-info
+        adr\">\n<dt>Location</dt>\n<dd>\n<span class=\"locality\">\nGreater Seattle
+        Area\n</span>\n</dd>\n<dt>Industry</dt>\n<dd class=\"industry\">\nProfessional
+        Training & Coaching\n</dd>\n</dl>\n</div>\n<div id=\"nprofile-overview\" class=\"join-linkedin
+        name-button\">\n<div class=\"header\">\n<h2>\n<a href=\"https://www.linkedin.com/reg/join-pprofile?_ed=0_ey0CD_WZ84mEBE8-Fg7jIZTpYQcz1DVsvT8i9KVdwYcRgCyB1HNqwmO7F_adeYjZxIS7-hEBLwzII5YpCLv93qHuF4UxjXA-BER7EH_nWdL&amp;trk=pprof-0-ts-view_full-0\"
+        rel=\"nofollow\">\nJoin LinkedIn and access Michael &#39;Luni&#39; Libes&#8217;s
+        full profile. It's free!\n</a>\n</h2>\n</div>\n<div class=\"content\">\n<p>As
+        a LinkedIn member, you'll join 300 million other professionals who are sharing
+        connections, ideas, and opportunities.</p>\n<ul>\n<li>See who you and <strong>Michael
+        &#39;Luni&#39; Libes</strong> know in common</li>\n<li>Get introduced to <strong>Michael
+        &#39;Luni&#39; Libes</strong></li>\n<li>Contact <strong>Michael &#39;Luni&#39;
+        Libes</strong> directly</li>\n</ul>\n</div>\n<p id=\"show-expanded\" class=\"actions
+        \">\n<a class=\"btn-action\" id=\"regform-show\" href=\"https://www.linkedin.com/reg/join-pprofile?_ed=0_ey0CD_WZ84mEBE8-Fg7jIZTpYQcz1DVsvT8i9KVdwYcRgCyB1HNqwmO7F_adeYjZxIS7-hEBLwzII5YpCLv93qHuF4UxjXA-BER7EH_nWdL&amp;trk=pprof-0-ts-view_full-0\"
+        rel=\"nofollow\">\nView Michael &#39;Luni&#39;'s full profile\n</a>\n</p>\n</div>\n</div>\n<h2
+        class=\"section-title\">Michael &#39;Luni&#39; Libes's Overview </h2>\n<dl
+        id=\"overview\">\n<dt id=\"overview-summary-current-title\" class=\"summary-current\"
+        style=\"display:block\">\nCurrent\n</dt>\n<dd class=\"summary-current\" style=\"display:block\">\n<ul
+        class=\"current\">\n<li>\nFounder and Managing Director\n<span class=\"at\">at
+        </span>\nFledge LLC\n</li>\n<li>\nGlobal Managing Director\n<span class=\"at\">at
+        </span>\nKick\n</li>\n<li>\nEntrepreneur In Residence &amp; Faculty\n<span
+        class=\"at\">at </span>\n<a class=\"company-profile-public\" href=\"/company/pinchot?trk=ppro_cprof\"><span
+        class=\"org summary\">Pinchot</span></a>\n</li>\n</ul>\n<div class=\"showhide-block\"
+        id=\"morecurr\">\n<ul class=\"current\">\n<li>\nManaging Director\n<span class=\"at\">at
+        </span>\nRealize Impact\n</li>\n<li>\nCore Team Member\n<span class=\"at\">at
+        </span>\nSVP Fast Pitch Seattle\n</li>\n<li>\nOrganizer\n<span class=\"at\">at
+        </span>\n#SocEnt Weekend\n</li>\n<li>\nAdvisor\n<span class=\"at\">at </span>\nHUB
+        Seattle\n</li>\n<li>\nAdvisor\n<span class=\"at\">at </span>\n<a class=\"company-profile-public\"
+        href=\"/company/surf-incubator?trk=ppro_cprof\"><span class=\"org summary\">SURF
+        Incubator</span></a>\n</li>\n<li>\nAdvisor\n<span class=\"at\">at </span>\nB
+        Revolution Capital\n</li>\n<li>\nAdvisor\n<span class=\"at\">at </span>\n<a
+        class=\"company-profile-public\" href=\"/company/stockbox-neighborhood-grocery?trk=ppro_cprof\"><span
+        class=\"org summary\">Stockbox Grocers</span></a>\n</li>\n</ul>\n<p class=\"seeall
+        showhide-link\"><a href=\"#\" id=\"morecurr-hide\">see less</a></p>\n</div>\n<p
+        class=\"seeall showhide-link\"><a href=\"#\" id=\"morecurr-show\">see all</a></p>\n</dd>\n<dt
+        id=\"overview-summary-past-title\" class=\"summary-past\" style=\"display:block\">\nPast\n</dt>\n<dd
+        class=\"summary-past\" style=\"display:block\">\n<ul class=\"past\">\n<li>\nMentor\n<span
+        class=\"at\">at </span>\nMicrosoft Accelerator\n</li>\n<li>\nEntrepreneur
+        In Residence\n<span class=\"at\">at </span>\n<a class=\"company-profile-public\"
+        href=\"/company/university-of-washington-center-for-commercialization?trk=ppro_cprof\"><span
+        class=\"org summary\">University of Washington Center for Commercialization</span></a>\n</li>\n<li>\nFounder
+        / CTO / Chief Research Office\n<span class=\"at\">at </span>\n<a class=\"company-profile-public\"
+        href=\"/company/zettics?trk=ppro_cprof\"><span class=\"org summary\">Zettics
+        (was Ground Truth)</span></a>\n</li>\n</ul>\n<div class=\"showhide-block\"
+        id=\"morepast\">\n<ul class=\"past\">\n<li>\nCo-Founder, Chief Architect\n<span
+        class=\"at\">at </span>\n<a class=\"company-profile-public\" href=\"/company/medio?trk=ppro_cprof\"><span
+        class=\"org summary\">Medio Systems</span></a>\n</li>\n<li>\nLead, Application
+        Development Studio\n<span class=\"at\">at </span>\n<a class=\"company-profile-public\"
+        href=\"/company/hands-on-mobile?trk=ppro_cprof\"><span class=\"org summary\">Mforma</span></a>\n</li>\n<li>\nFounder,
+        Chief Architect\n<span class=\"at\">at </span>\n2WAY\n</li>\n<li>\nFounder,
+        CEO, CTO\n<span class=\"at\">at </span>\nNimble Corp\n</li>\n</ul>\n<p class=\"seeall
+        showhide-link\"><a href=\"#\" id=\"morepast-hide\">see less</a></p>\n</div>\n<p
+        class=\"seeall showhide-link\"><a href=\"#\" id=\"morepast-show\">see all</a></p>\n</dd>\n<dt
+        id=\"overview-summary-education-title\" class=\"summary-education\" style=\"display:block\">\nEducation\n</dt>\n<dd
+        class=\"summary-education\" style=\"display:block\">\n<ul>\n<li>\n<a href=\"/edu/university-of-washington-19657\">University
+        of Washington</a>\n</li>\n<li>\n<a href=\"/edu/carnegie-mellon-19232\">Carnegie
+        Mellon</a>\n</li>\n</ul>\n</dd>\n<dt>\nConnections\n</dt>\n<dd class=\"overview-connections\">\n<p>\n<strong>500+</strong>
+        connections\n</p>\n</dd>\n<dt class=\"websites\">Websites</dt>\n<dd class=\"websites\">\n<ul>\n<li>\n<a
+        href=\"/redir/redirect?url=http%3A%2F%2Fwww%2Emobileintelligencesolutions%2Ecom%2Fsolutions%2Ehtml&amp;urlhash=SeiZ\"
+        target=\"_blank\" title=\"New window will open\" name=\"overviewsite\">\nMobile
+        Intelligence Solution\n</a>\n</li>\n<li>\n<a href=\"/redir/redirect?url=http%3A%2F%2Fwww%2Egroundtruth%2Ecom%2F&amp;urlhash=Ssrp\"
+        target=\"_blank\" title=\"New window will open\" name=\"overviewsite\">\nGround
+        Truth\n</a>\n</li>\n<li>\n<a href=\"/redir/redirect?url=http%3A%2F%2Fmedio%2Ecom&amp;urlhash=ShuO\"
+        target=\"_blank\" title=\"New window will open\" name=\"overviewsite\">\nMedio
+        Systems\n</a>\n</li>\n</ul>\n</dd>\n</dl>\n<script type=\"text/javascript\">\n
+        \ showHide.init('overview');\n</script>\n<div class=\"section\" id=\"profile-summary\"
+        style=\"display:block\">\n<div class=\"header\">\n<h2>\nMichael &#39;Luni&#39;
+        Libes' Summary\n</h2>\n</div>\n<div class=\"content\">\n<p class=\" description
+        summary\">\nSerial entrepreneur, author, and educator.<br>\n<br>\nFounder
+        and Managing Director, Fledge LLC -- http://fledge.co<br>\n<br>\nFounder and
+        Managing Director, Kick -- http://kick.fledge.co<br>\n<br>\nFounder and Managing
+        Director, Realize Impact -- http://realizeimpact.org<br>\n<br>\nEntrepreneur
+        in Residence and Instructor, Bainbridge Graduate Institute -- http://bgi.edu<br>\n<br>\nOrganizer
+        of #SocEnt Weekend -- http://socentweekend.org<br>\n<br>\nAdvisor to a dozen
+        early-stage ventures, plus two co-working spaces: Impact HUB Seattle and SURF
+        Incubator, and an impact investment group, B Revolution Capital.<br>\n<br>\n21
+        years of experience creating and building startups, five of which I founded
+        or co-founded.<br>\n<br>\nSpecialties: Taking an idea, and running through
+        the process from research to prototype to funding, team building, production,
+        and sales to turn that idea into a company.<br>\n<br>\nAdvice and guidance
+        on entrepreneurship at http://lunarmobiscuit.com\n</p>\n</div>\n</div>\n<div
+        class=\"section subsection-reorder\" id=\"profile-experience\" style=\"display:block\">\n<div
+        class=\"header\">\n<h2>Michael &#39;Luni&#39; Libes' Experience\n</h2>\n</div>\n<div
+        class=\"content vcalendar\">\n<div>\n<div>\n<div class=\"position  first experience
+        vevent vcard summary-current\" style=\"display:block\">\n<a class=\"include\"
+        href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Founder and Managing Director</span>\n</h3>\n<h4><strong>\n<a
+        class=\"company-profile-public\" href=\"/company/fledge-llc?trk=ppro_cprof\"><span
+        class=\"org summary\">Fledge LLC</span></a>\n</strong></strong>\n</h4>\n</div>\n<p
+        class=\"orgstats organization-details current-position\">\nPrivately Held;
+        1-10 employees;\nManagement Consulting industry\n</p>\n<p class=\"period\">\n<abbr
+        class=\"dtstart\" title=\"2012-02-01\">February 2012</abbr>\n&#8211; <abbr
+        class=\"dtstamp\" title=\"2014-06-24\">Present</abbr>\n<span class=\"duration\"><span
+        class=\"value-title\" title=\"P2Y5M\"> </span>(2 years 5 months)</span>\n<span
+        class=\"location\">Greater Seattle Area</span>\n</p>\n<p class=\" description
+        current-position\">\nFledge is a &#x201c;conscious company&#x201d; incubator,
+        helping create companies which fill the unmet needs of the large and growing
+        number of &#x201c;conscious consumers&#x201d;.<br>\n<br>\nSpecifically, these
+        are consumers who are more and more: environmentally conscious, energy conscious,
+        health conscious, conscious of sustainability, of community, and even conscious
+        of consumption itself.<br>\n<br>\nEntrepreneurs who aim to address these unmet
+        needs find little help to do so, as most of the entrepreneurial infrastructure
+        (incubators, accelerators, venture capital, etc.) is primarily aimed at fostering
+        &#x201c;tech&#x201d; (be it software, &#x201c;clean&#x201d; or &#x201c;biotech&#x201d;)
+        startups.<br>\n<br>\nFledge is here to fill that gap, taking the best practices
+        from the tech world, bringing the well-proven, mentor-driven Tech Stars model
+        to entrepreneurs building these new, conscious companies. Companies following
+        along paths pioneers by well-known companies such as Patagonia, Whole Foods,
+        Zipcar, REI, Craigslist, and Starbucks.<br>\n<br>\nhttp://fledge.co\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-current\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Global Managing Director</span>\n</h3>\n<h4><strong>\n<span
+        class=\"org summary\">Kick</span>\n</strong></strong>\n</h4>\n</div>\n<p class=\"orgstats
+        organization-details current-position\">\n</p>\n<p class=\"period\">\n<abbr
+        class=\"dtstart\" title=\"2013-03-01\">March 2013</abbr>\n&#8211; <abbr class=\"dtstamp\"
+        title=\"2014-06-24\">Present</abbr>\n<span class=\"duration\"><span class=\"value-title\"
+        title=\"P1Y4M\"> </span>(1 year 4 months)</span>\n<span class=\"location\">Worldwide</span>\n</p>\n<p
+        class=\" description current-position\">\nKick is &quot;our&quot; incubator,
+        a pre-accelerator program here to help all entrepreneurs, worldwide, through
+        the difficult path from idea to started startup. Kick exists to help validate
+        ideas, to take teams from weekend workshops and business plan competitions
+        into reality, to apply the lessons learned in school, or for other stage of
+        life when an entrepreneur realizes that some help could help.<br>\n<br>\nKick
+        is here for the lifestyle entrepreneurs, the social entrepreneurs, and the
+        tech entrepreneurs.<br>\n<br>\nKick is here for the for-profits, the non-profits,
+        and the hybrid models.<br>\n<br>\nThe startup process isn&#x2019;t that different
+        between low-growth and high-growth businesses, nor between tech-centric and
+        people-centric companies. All entrepreneurs need to understand their customers,
+        understand their markets, and with that knowledge, find a path to sustainable
+        revenues.<br>\n<br>\nHere&#x2019;s how Kick works:<br>\n<br>\n1. Participants
+        fill out a standard <br>\n2. Participants create a crowdfunding campaign to
+        pay for the tuition<br>\n3. The crowd determines if the entrepreneurs should
+        attend, by funding their campaign<br>\n<br>\nIf you are an entrepreneur seeking
+        help, or an organization that services entrepreneurs and want to offer them
+        a structured program, we are here to help.<br>\n<br>\nhttp://kickincubator.com\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-current\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Entrepreneur In Residence &amp; Faculty</span>\n</h3>\n<h4><strong>\n<a
+        class=\"company-profile-public\" href=\"/company/pinchot?trk=ppro_cprof\"><span
+        class=\"org summary\">Pinchot</span></a>\n</strong></strong>\n</h4>\n</div>\n<p
+        class=\"orgstats organization-details current-position\">\nEducational Institution;
+        11-50 employees;\nHigher Education industry\n</p>\n<p class=\"period\">\n<abbr
+        class=\"dtstart\" title=\"2011-04-01\">April 2011</abbr>\n&#8211; <abbr class=\"dtstamp\"
+        title=\"2014-06-24\">Present</abbr>\n<span class=\"duration\"><span class=\"value-title\"
+        title=\"P3Y3M\"> </span>(3 years 3 months)</span>\n<span class=\"location\">Bainbridge
+        Island, WA</span>\n</p>\n<p class=\" description current-position\">\nAs an
+        EIR at Pinchot, I mentor/advise the MBA students as they learn Entrepreneurship,
+        plus I act as a liaison between the school and the business community to foster
+        internships and other &quot;real world&quot; interactions for the students.<br>\n<br>\nAs
+        faculty, I teach &quot;Entrepreneurship &amp; Intrapreneurship&quot; at the
+        Pinchot/BGI &quot;Metro&quot; program in Seattle, WA.<br>\n<br>\nIt&#39;s
+        never too early to &quot;give back&quot;, http://www.geekwire.com/2011/giving-paying.<br>\n<br>\nhttp://bgi.pinchot.edu\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-current\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Managing Director</span>\n</h3>\n<h4><strong>\n<a class=\"company-profile-public\"
+        href=\"/company/realize-impact?trk=ppro_cprof\"><span class=\"org summary\">Realize
+        Impact</span></a>\n</strong></strong>\n</h4>\n</div>\n<p class=\"orgstats
+        organization-details current-position\">\nPublic Company; Myself Only;\nFinancial
+        Services industry\n</p>\n<p class=\"period\">\n<abbr class=\"dtstart\" title=\"2013-09-01\">September
+        2013</abbr>\n&#8211; <abbr class=\"dtstamp\" title=\"2014-06-24\">Present</abbr>\n<span
+        class=\"duration\"><span class=\"value-title\" title=\"P10M\"> </span>(10
+        months)</span>\n<span class=\"location\">Greater Seattle Area</span>\n</p>\n<p
+        class=\" description current-position\">\nRealize Impact exists to help fund
+        and support impactful startup companies. For analogies, this organization
+        falls somewhere between Social Venture Partners, RSF Social Finance, and the
+        existing Angel Groups, but focused on impactful, for-profit, investable companies.\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-current\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Core Team Member</span>\n</h3>\n<h4><strong>\n<span class=\"org
+        summary\">SVP Fast Pitch Seattle</span>\n</strong></strong>\n</h4>\n</div>\n<p
+        class=\"orgstats organization-details current-position\">\n</p>\n<p class=\"period\">\n<abbr
+        class=\"dtstart\" title=\"2012-07-01\">July 2012</abbr>\n&#8211; <abbr class=\"dtstamp\"
+        title=\"2014-06-24\">Present</abbr>\n<span class=\"duration\"><span class=\"value-title\"
+        title=\"P2Y\"> </span>(2 years)</span>\n<span class=\"location\">Greater Seattle
+        Area</span>\n</p>\n<p class=\" description current-position\">\nSocial Venture
+        Partners Seattle organizes an annual business plan competition of impactful
+        organizations, both non-profit and for-profit. I am one of the &quot;core
+        team&quot; members, an all volunteer work force who put the event together.
+        In that role, I help educate the participants in entrepreneurship, and help
+        manage the prize fund for the for-profit finalists.<br>\n<br>\nhttp://sifp.net
+        @SIFPnet\n</p>\n</div>\n</div>\n<div>\n<div class=\"position   experience
+        vevent vcard summary-current\" style=\"display:block\">\n<a class=\"include\"
+        href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Organizer</span>\n</h3>\n<h4><strong>\n<span class=\"org summary\">#SocEnt
+        Weekend</span>\n</strong></strong>\n</h4>\n</div>\n<p class=\"orgstats organization-details
+        current-position\">\n</p>\n<p class=\"period\">\n<abbr class=\"dtstart\" title=\"2012-01-01\">January
+        2012</abbr>\n&#8211; <abbr class=\"dtstamp\" title=\"2014-06-24\">Present</abbr>\n<span
+        class=\"duration\"><span class=\"value-title\" title=\"P2Y6M\"> </span>(2
+        years 6 months)</span>\n<span class=\"location\">Greater Seattle Area</span>\n</p>\n<p
+        class=\" description current-position\">\nAlong with HUB Seattle, I helped
+        organize the first-ever weekend of social entrepreneurship. February 24-26,
+        2012. October 5-7, 2012. More to come...<br>\n<br>\nhttp://socentweekend.org
+        @SocEntWeekend\n</p>\n</div>\n</div>\n<div>\n<div class=\"position   experience
+        vevent vcard summary-current\" style=\"display:block\">\n<a class=\"include\"
+        href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Advisor</span>\n</h3>\n<h4><strong>\n<span class=\"org summary\">HUB
+        Seattle</span>\n</strong></strong>\n</h4>\n</div>\n<p class=\"orgstats organization-details
+        current-position\">\n</p>\n<p class=\"period\">\n<abbr class=\"dtstart\" title=\"2012-04-01\">April
+        2012</abbr>\n&#8211; <abbr class=\"dtstamp\" title=\"2014-06-24\">Present</abbr>\n<span
+        class=\"duration\"><span class=\"value-title\" title=\"P2Y3M\"> </span>(2
+        years 3 months)</span>\n<span class=\"location\">Greater Seattle Area</span>\n</p>\n<p
+        class=\" description current-position\">\nHUB Seattle is part of the international
+        co-op of co-working spaces focused on social entrepreneurs. http://thehubseattle.com\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-current\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Advisor</span>\n</h3>\n<h4><strong>\n<a class=\"company-profile-public\"
+        href=\"/company/surf-incubator?trk=ppro_cprof\"><span class=\"org summary\">SURF
+        Incubator</span></a>\n</strong></strong>\n</h4>\n</div>\n<p class=\"orgstats
+        organization-details current-position\">\nPrivately Held; 1-10 employees;\nProfessional
+        Training & Coaching industry\n</p>\n<p class=\"period\">\n<abbr class=\"dtstart\"
+        title=\"2012-04-01\">April 2012</abbr>\n&#8211; <abbr class=\"dtstamp\" title=\"2014-06-24\">Present</abbr>\n<span
+        class=\"duration\"><span class=\"value-title\" title=\"P2Y3M\"> </span>(2
+        years 3 months)</span>\n<span class=\"location\">Greater Seattle Area</span>\n</p>\n<p
+        class=\" description current-position\">\nSURF Incubator is a co-working space
+        for the tech community, expanding the early-stage development community beyond
+        the home office and coffee shops. http://surfincubator.com\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-current\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Advisor</span>\n</h3>\n<h4><strong>\n<span class=\"org summary\">B
+        Revolution Capital</span>\n</strong></strong>\n</h4>\n</div>\n<p class=\"orgstats
+        organization-details current-position\">\n</p>\n<p class=\"period\">\n<abbr
+        class=\"dtstart\" title=\"2013-01-01\">January 2013</abbr>\n&#8211; <abbr
+        class=\"dtstamp\" title=\"2014-06-24\">Present</abbr>\n<span class=\"duration\"><span
+        class=\"value-title\" title=\"P1Y6M\"> </span>(1 year 6 months)</span>\n<span
+        class=\"location\">Greater Los Angeles Area</span>\n</p>\n<p class=\" description
+        current-position\">\nB Revolution Capital is an impact investment group, focused
+        on B Corporation, i.e. companies that do good, while doing good business\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-current\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Advisor</span>\n</h3>\n<h4><strong>\n<a class=\"company-profile-public\"
+        href=\"/company/stockbox-neighborhood-grocery?trk=ppro_cprof\"><span class=\"org
+        summary\">Stockbox Grocers</span></a>\n</strong></strong>\n</h4>\n</div>\n<p
+        class=\"orgstats organization-details current-position\">\nPrivately Held;
+        11-50 employees;\nRetail industry\n</p>\n<p class=\"period\">\n<abbr class=\"dtstart\"
+        title=\"2011-03-01\">March 2011</abbr>\n&#8211; <abbr class=\"dtstamp\" title=\"2014-06-24\">Present</abbr>\n<span
+        class=\"duration\"><span class=\"value-title\" title=\"P3Y4M\"> </span>(3
+        years 4 months)</span>\n<span class=\"location\">Greater Seattle Area</span>\n</p>\n<p
+        class=\" description current-position\">\nStockbox Grocers improves access
+        to healthy food and eases the burden for families living in food deserts,
+        with a miniature grocery that is tucked inside a reclaimed shipping container
+        and placed into the parking lot of an existing business.\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-past\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Mentor</span>\n</h3>\n<h4><strong>\n<a class=\"company-profile-public\"
+        href=\"/company/microsoft?trk=ppro_cprof\"><span class=\"org summary\">Microsoft
+        Accelerator</span></a>\n</strong></strong>\n</h4>\n</div>\n<p class=\"orgstats
+        organization-details past-position\">\nPublic Company; 10,001+ employees;
+        MSFT;\nComputer Software industry\n</p>\n<p class=\"period\">\n<abbr class=\"dtstart\"
+        title=\"2012-04-01\">April 2012</abbr>\n&#8211; <abbr class=\"dtend\" title=\"2012-06-01\">June
+        2012</abbr> <span class=\"duration\"><span class=\"value-title\" title=\"P3M\">
+        </span>(3 months)</span>\n<span class=\"location\">Greater Seattle Area</span>\n</p>\n<p
+        class=\" description past-position\">\nAt the Microsoft Accelerator (powered
+        by Tech Stars) I help the new companies find a path from their idea to an
+        operational startup.<br>\n<br>\nFor the 2012 Kinect class, I am a Lead Mentor
+        for Voxon.\n</p>\n</div>\n</div>\n<div>\n<div class=\"position   experience
+        vevent vcard summary-past\" style=\"display:block\">\n<a class=\"include\"
+        href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Entrepreneur In Residence</span>\n</h3>\n<h4><strong>\n<a
+        class=\"company-profile-public\" href=\"/company/university-of-washington-center-for-commercialization?trk=ppro_cprof\"><span
+        class=\"org summary\">University of Washington Center for Commercialization</span></a>\n</strong></strong>\n</h4>\n</div>\n<p
+        class=\"orgstats organization-details past-position\">\nEducational Institution;
+        51-200 employees;\nResearch industry\n</p>\n<p class=\"period\">\n<abbr class=\"dtstart\"
+        title=\"2011-12-01\">December 2011</abbr>\n&#8211; <abbr class=\"dtend\" title=\"2012-05-01\">May
+        2012</abbr> <span class=\"duration\"><span class=\"value-title\" title=\"P6M\">
+        </span>(6 months)</span>\n<span class=\"location\">Greater Seattle Area</span>\n</p>\n<p
+        class=\" description past-position\">\nAt UW&#39;s C4C, I help turn research
+        into startups.\n</p>\n</div>\n</div>\n<div>\n<div class=\"position   experience
+        vevent vcard summary-past\" style=\"display:block\">\n<a class=\"include\"
+        href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Founder / CTO / Chief Research Office</span>\n</h3>\n<h4><strong>\n<a
+        class=\"company-profile-public\" href=\"/company/zettics?trk=ppro_cprof\"><span
+        class=\"org summary\">Zettics (was Ground Truth)</span></a>\n</strong></strong>\n</h4>\n</div>\n<p
+        class=\"orgstats organization-details past-position\">\nPrivately Held; 51-200
+        employees;\nTelecommunications industry\n</p>\n<p class=\"period\">\n<abbr
+        class=\"dtstart\" title=\"2008-10-01\">October 2008</abbr>\n&#8211; <abbr
+        class=\"dtend\" title=\"2011-11-01\">November 2011</abbr> <span class=\"duration\"><span
+        class=\"value-title\" title=\"P3Y2M\"> </span>(3 years 2 months)</span>\n<span
+        class=\"location\">Seattle, WA</span>\n</p>\n<p class=\" description past-position\">\nGround
+        Truth is a mobile measurement firm that delivers the precise, timely and actionable
+        mobile intelligence required for operators, advertisers and publishers to
+        measure, optimize and grow their businesses.<br>\n<br>\nhttp://groundtruth.com\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-past\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Co-Founder, Chief Architect</span>\n</h3>\n<h4><strong>\n<a
+        class=\"company-profile-public\" href=\"/company/medio?trk=ppro_cprof\"><span
+        class=\"org summary\">Medio Systems</span></a>\n</strong></strong>\n</h4>\n</div>\n<p
+        class=\"orgstats organization-details past-position\">\nPrivately Held; 51-200
+        employees;\nComputer Software industry\n</p>\n<p class=\"period\">\n<abbr
+        class=\"dtstart\" title=\"2005-01-01\">January 2005</abbr>\n&#8211; <abbr
+        class=\"dtend\" title=\"2009-03-01\">March 2009</abbr> <span class=\"duration\"><span
+        class=\"value-title\" title=\"P4Y3M\"> </span>(4 years 3 months)</span>\n</p>\n<p
+        class=\" description past-position\">\nQuite simply, we have built the Future
+        of Mobile Search, which is the key ingredient for a superior mobile information
+        experience. <br>\n<br>\nMedio combines the latest in patent-pending search
+        and mobile technologies, designed exclusively to be an ultra-reliable, scalable,
+        carrier-grade, hosted consumer search solution.\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-past\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Lead, Application Development Studio</span>\n</h3>\n<h4><strong>\n<a
+        class=\"company-profile-public\" href=\"/company/hands-on-mobile?trk=ppro_cprof\"><span
+        class=\"org summary\">Mforma</span></a>\n</strong></strong>\n</h4>\n</div>\n<p
+        class=\"orgstats organization-details past-position\">\nPrivately Held; 11-50
+        employees;\nComputer Games industry\n</p>\n<p class=\"period\">\n<abbr class=\"dtstart\"
+        title=\"2001-06-01\">June 2001</abbr>\n&#8211; <abbr class=\"dtend\" title=\"2004-12-01\">December
+        2004</abbr> <span class=\"duration\"><span class=\"value-title\" title=\"P3Y7M\">
+        </span>(3 years 7 months)</span>\n</p>\n<p class=\" description past-position\">\nLeading
+        the development of state-of-the-art information applications on cellphones.
+        <br>\n<br>\nEarlier at Mforma, I helped build the infrastructure required
+        to deliver games and other data services to cellphone customers.<br>\n<br>\nIn
+        addition, I&#39;ve helped create the 3rd party developer support organization,
+        the QA department, and other bits of organization required to grow the company.\n</p>\n</div>\n</div>\n<div>\n<div
+        class=\"position   experience vevent vcard summary-past\" style=\"display:block\">\n<a
+        class=\"include\" href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Founder, Chief Architect</span>\n</h3>\n<h4><strong>\n<span
+        class=\"org summary\">2WAY</span>\n</strong></strong>\n</h4>\n</div>\n<p class=\"orgstats
+        organization-details past-position\">\n</p>\n<p class=\"period\">\n<abbr class=\"dtstart\"
+        title=\"1997-11-01\">November 1997</abbr>\n&#8211; <abbr class=\"dtend\" title=\"2001-06-01\">June
+        2001</abbr> <span class=\"duration\"><span class=\"value-title\" title=\"P3Y8M\">
+        </span>(3 years 8 months)</span>\n</p>\n<p class=\" description past-position\">\nI
+        founded 2WAY with two partners. It&#39;s still ongoing, under new management.
+        2WAY&#39;s software allowed it&#39;s large, Global 1000 customers to easily
+        gather knowledge from their customers, partners, and employees. The web normally
+        is used to distribute data from one to many, but with 2WAY&#39;s technology,
+        we enabled information gathering from many back to one.<br>\n<br>\nI was the
+        architect and lead developer of the system.<br>\n<br>\nIn addition, about
+        a year before I left, I led a second effort to create an Enterprise-based
+        instant messaging system. This was one of the first corporate focused IM systems,
+        and is still ahead of the competition in terms of security, informations storage,
+        and ease-of-use.\n</p>\n</div>\n</div>\n<div>\n<div class=\"position   experience
+        vevent vcard summary-past\" style=\"display:block\">\n<a class=\"include\"
+        href=\"#name\"></a>\n<div class=\"postitle\">\n<h3 class=\"false\">\n<span
+        class=\"title\">Founder, CEO, CTO</span>\n</h3>\n<h4><strong>\n<span class=\"org
+        summary\">Nimble Corp</span>\n</strong></strong>\n</h4>\n</div>\n<p class=\"orgstats
+        organization-details past-position\">\n</p>\n<p class=\"period\">\n<abbr class=\"dtstart\"
+        title=\"1992-04-01\">April 1992</abbr>\n&#8211; <abbr class=\"dtend\" title=\"1997-10-01\">October
+        1997</abbr> <span class=\"duration\"><span class=\"value-title\" title=\"P5Y7M\">
+        </span>(5 years 7 months)</span>\n</p>\n<p class=\" description past-position\">\nI
+        founded this company to develop software for the nacent pen-based computer
+        market. That market never developed, but it did morph into the PDA market.<br>\n<br>\nWhile
+        at Nimble, I developed software for Go&#39;s PenPoint, General Magic&#39;s
+        MagicCap, Apple&#39;s Newton, various GeoWorks systems, Microsoft&#39;s Windows
+        CE, and Palm&#39;s OS.<br>\n<br>\nIn addition, I wrote software under contract
+        and licensed Nimble&#39;s propriety software to McCaw Wireless, AT&amp;T Wireless,
+        Sony, Motorola, Matsushita (Panasonic), Philips, and General Magic.\n</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"section\" id=\"profile-publications\" style=\"display:block\">\n<div
+        class=\"header\">\n<h2>Michael &#39;Luni&#39; Libes' Publications\n</h2>\n</div>\n<div
+        class=\"content\">\n<ul class=\"publications documents\">\n<li class=\"publication
+        vevent vcard first\">\n<h3>\n<a href=\"/redir/redirect?url=https%3A%2F%2Flunarmobiscuit%2Ecom&amp;urlhash=hPba\"
+        target=\"_blank\" title=\"New window will open\" name=\"publicationsite\"
+        class=\"url\">\n<cite>The Next Step: online classes and books</cite>\n</a>\n</h3>\n<ul
+        class=\"specifics\">\n<li>Lunarmobiscuit.com</li><li class=\"dtstart\">January
+        1, 2014</li>\n</ul>\n<div class=\"attribution\"> Authors:\n<a href=\"http://www.linkedin.com/pub/michael-luni-libes/0/3/8b5\">Michael
+        &#39;Luni&#39; Libes</a>\n</div>\n<div class=\"summary\">\n<p class=\" &#39;&#39;\">\nAll
+        of The Next Step books and online classes, plus a community of entrepreneurs
+        and mentors\n</p>\n<script id=\"control-http-12248-10952921-1\" type=\"linkedin/control\"
+        class=\"li-control\">\n            \n      \n        \n        \n        /*
+        extlib: _showmore */\n          \n      \n      \n      \n      \n      \n
+        \     \n      \n      \n      \n      \n      \n      \n      \n      \n      \n
+        \     \n      \n    \nLI.i18n.register( 'ShowMore-see-more', 'more' );\nLI.i18n.register(
+        'ShowMore-see-less',   'less' );\nLI.i18n.register( 'ShowMore-see-more-long',
+        \  'Show more' );\nLI.i18n.register( 'ShowMore-see-less-long',   'Show less'
+        );\n\n        \n        \n        \n        \n      \n    \n            LI.Controls.addControl('control-http-12248-10952921-1',
+        'ShowMore', { charCount:400 });\n          </script>\n</div>\n</li>\n<li class=\"publication
+        vevent vcard\">\n<h3>\n<a href=\"/redir/redirect?url=http%3A%2F%2Fwww%2Eamazon%2Ecom%2FThe-Next-Step-Guiding-startup%2Fdp%2F0615596797&amp;urlhash=YeZh\"
+        target=\"_blank\" title=\"New window will open\" name=\"publicationsite\"
+        class=\"url\">\n<cite>The Next Step: Guiding you from idea to startup</cite>\n</a>\n</h3>\n<ul
+        class=\"specifics\">\n<li class=\"dtstart\">March 2012</li>\n</ul>\n<div class=\"attribution\">
+        Authors:\n<a href=\"http://www.linkedin.com/pub/michael-luni-libes/0/3/8b5\">Michael
+        &#39;Luni&#39; Libes</a>\n</div>\n<div class=\"summary\">\n<p class=\" &#39;&#39;\">\nA
+        book to help entrepreneurs understand the complex, difficult process involved
+        in getting from a raw idea to an operational startup company.\n</p>\n<script
+        id=\"control-http-12248-10952923-2\" type=\"linkedin/control\" class=\"li-control\">\n
+        \           \n      \n    \n            LI.Controls.addControl('control-http-12248-10952923-2',
+        'ShowMore', { charCount:400 });\n          </script>\n</div>\n</li>\n<li class=\"publication
+        vevent vcard\">\n<h3>\n<a href=\"/redir/redirect?url=http%3A%2F%2Fwww%2Eamazon%2Ecom%2FThe-Next-Step-pitching-Volume%2Fdp%2F0615780903%2F&amp;urlhash=Xiuj\"
+        target=\"_blank\" title=\"New window will open\" name=\"publicationsite\"
+        class=\"url\">\n<cite>The Next Step: A guide to pitching your idea</cite>\n</a>\n</h3>\n<ul
+        class=\"specifics\">\n<li class=\"dtstart\">March 2013</li>\n</ul>\n<div class=\"attribution\">
+        Authors:\n<a href=\"http://www.linkedin.com/pub/michael-luni-libes/0/3/8b5\">Michael
+        &#39;Luni&#39; Libes</a>\n</div>\n<div class=\"summary\">\n<p class=\" &#39;&#39;\">\nThis
+        book guides you step by step through the process of creating and presenting
+        a great company pitch. This book is for anyone with a business plan in head
+        or hand who is ready to create and deliver a great &#x201c;pitch&#x201d;,
+        be it to investors, a potential co-founder, or for your first sale.\n</p>\n<script
+        id=\"control-http-12248-10952924-3\" type=\"linkedin/control\" class=\"li-control\">\n
+        \           \n      \n    \n            LI.Controls.addControl('control-http-12248-10952924-3',
+        'ShowMore', { charCount:400 });\n          </script>\n</div>\n</li>\n<li class=\"publication
+        vevent vcard\">\n<h3>\n<a href=\"/redir/redirect?url=http%3A%2F%2Fwww%2Eamazon%2Ecom%2FNext-Step-guide-dividing-equity%2Fdp%2F0615848281&amp;urlhash=2lc_\"
+        target=\"_blank\" title=\"New window will open\" name=\"publicationsite\"
+        class=\"url\">\n<cite>The Next Step: A guide to splitting equity</cite>\n</a>\n</h3>\n<ul
+        class=\"specifics\">\n<li class=\"dtstart\">June 1, 2013</li>\n</ul>\n<div
+        class=\"attribution\"> Authors:\n<a href=\"http://www.linkedin.com/pub/michael-luni-libes/0/3/8b5\">Michael
+        &#39;Luni&#39; Libes</a>\n</div>\n<div class=\"summary\">\n<p class=\" &#39;&#39;\">\nA
+        step by step guide through the process of splitting equity with your co-founders
+        and initial team members.\n</p>\n<script id=\"control-http-12248-10952925-4\"
+        type=\"linkedin/control\" class=\"li-control\">\n            \n      \n    \n
+        \           LI.Controls.addControl('control-http-12248-10952925-4', 'ShowMore',
+        { charCount:400 });\n          </script>\n</div>\n</li>\n</ul>\n</div>\n</div>\n<div
+        class=\"section\" id=\"profile-projects\" style=\"display:block\">\n<div class=\"header\">\n<h2>Michael
+        &#39;Luni&#39; Libes' Projects\n</h2>\n</div>\n<div class=\"content\">\n<ul
+        class=\"projects documents\">\n<li class=\"project first\">\n<h3>\n<a href=\"/redir/redirect?url=http%3A%2F%2Flunarmobiscuit%2Ecom&amp;urlhash=grSI\"
+        target=\"_blank\" title=\"New window will open\" name=\"projectsite\" class=\"url\">\nLunarmobiscuit.com\n</a>\n</h3>\n<ul
+        class=\"specifics\">\n<li>\nJanuary 2014\nto\nPresent\n</li>\n</ul>\n<div
+        class=\"attribution\"> Team Members:\n<a href=\"http://www.linkedin.com/profile/view?id=6473&amp;authType=name&amp;authToken=c8mU&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Michael
+        &#39;Luni&#39; Libes</a>\n</div>\n<div>\n<p class=\" &#39;&#39;\">\nOnline
+        books, classes, advice, and opinions on entrepreneurship and conscious business\n</p>\n<script
+        id=\"control-http-12248-10952928-5\" type=\"linkedin/control\" class=\"li-control\">\n
+        \           \n      \n    \n            LI.Controls.addControl('control-http-12248-10952928-5',
+        'ShowMore', { charCount:400 });\n          </script>\n</div>\n</li>\n<li class=\"project\">\n<h3>\n<a
+        href=\"/redir/redirect?url=https%3A%2F%2Fvimeo%2Ecom%2Fchannels%2Ffledge2013a&amp;urlhash=uCh1\"
+        target=\"_blank\" title=\"New window will open\" name=\"projectsite\" class=\"url\">\nFledge
+        Demo Day, Autumn 2013\n</a>\n</h3>\n<ul class=\"specifics\">\n<li>\nNovember
+        2013\nto\nPresent\n</li>\n</ul>\n<div class=\"attribution\"> Team Members:\n<a
+        href=\"http://www.linkedin.com/profile/view?id=6473&amp;authType=name&amp;authToken=c8mU&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Michael
+        &#39;Luni&#39; Libes</a>, Rachel Stamm, James Norris, Danielle Lanyard, Burt
+        Hamner\n</div>\n<div>\n<p class=\" &#39;&#39;\">\nTake a few minutes to be
+        inspired by the Autumn 2013 &quot;fledglings&quot;\n</p>\n<script id=\"control-http-12248-10952929-6\"
+        type=\"linkedin/control\" class=\"li-control\">\n            \n      \n    \n
+        \           LI.Controls.addControl('control-http-12248-10952929-6', 'ShowMore',
+        { charCount:400 });\n          </script>\n</div>\n</li>\n<li class=\"project\">\n<h3>\n<a
+        href=\"/redir/redirect?url=https%3A%2F%2Fvimeo%2Ecom%2Fchannels%2Ffledge2013&amp;urlhash=N3RR\"
+        target=\"_blank\" title=\"New window will open\" name=\"projectsite\" class=\"url\">\nFledge
+        Demo Day, Winter 2013\n</a>\n</h3>\n<ul class=\"specifics\">\n<li>\nJanuary
+        2013\nto\nApril 2013\n</li>\n</ul>\n<div class=\"attribution\"> Team Members:\n<a
+        href=\"http://www.linkedin.com/profile/view?id=6473&amp;authType=name&amp;authToken=c8mU&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Michael
+        &#39;Luni&#39; Libes</a>, <a href=\"http://www.linkedin.com/profile/view?id=31937136&amp;authType=name&amp;authToken=RUDX&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Cynthia
+        Todd</a>, <a href=\"http://www.linkedin.com/profile/view?id=32130495&amp;authType=name&amp;authToken=WpSB&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Erin
+        Nelson</a>, <a href=\"http://www.linkedin.com/profile/view?id=5027333&amp;authType=name&amp;authToken=ir51&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Anisha
+        Shankar</a>, Ryan Richards, Rowan Olomon\n</div>\n<div>\n<p class=\" &#39;&#39;\">\nThe
+        culmination of the 10 week Fledge Social Enterprise Accelerator Program.\n</p>\n<script
+        id=\"control-http-12248-10952930-7\" type=\"linkedin/control\" class=\"li-control\">\n
+        \           \n      \n    \n            LI.Controls.addControl('control-http-12248-10952930-7',
+        'ShowMore', { charCount:400 });\n          </script>\n</div>\n</li>\n<li class=\"project\">\n<h3>\n<a
+        href=\"/redir/redirect?url=https%3A%2F%2Fvimeo%2Ecom%2Fchannels%2Ffledge2012&amp;urlhash=cVIv\"
+        target=\"_blank\" title=\"New window will open\" name=\"projectsite\" class=\"url\">\nFledge
+        Demo Day, Summer 2012\n</a>\n</h3>\n<ul class=\"specifics\">\n<li>\nSeptember
+        2012\nto\nPresent\n</li>\n</ul>\n<div class=\"attribution\"> Team Members:\n<a
+        href=\"http://www.linkedin.com/profile/view?id=6473&amp;authType=name&amp;authToken=c8mU&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Michael
+        &#39;Luni&#39; Libes</a>, Rachel Maxwell, Casey Dilloway, Peter Scott, Boston
+        Nyer, Gene Homicki, Alma Lorraine Bone Constable, Chuks Onwuneme\n</div>\n<div>\n<p
+        class=\" &#39;&#39;\">\nThe first Fledge &quot;Demo Day&quot; event, recorded
+        live on-stage at Seattle Center&#39;s Intiman Theater\n</p>\n<script id=\"control-http-12248-10952932-8\"
+        type=\"linkedin/control\" class=\"li-control\">\n            \n      \n    \n
+        \           LI.Controls.addControl('control-http-12248-10952932-8', 'ShowMore',
+        { charCount:400 });\n          </script>\n</div>\n</li>\n<li class=\"project\">\n<h3>\n<a
+        href=\"/redir/redirect?url=http%3A%2F%2Fc2hh%2Ecom&amp;urlhash=KKvY\" target=\"_blank\"
+        title=\"New window will open\" name=\"projectsite\" class=\"url\">\nClose
+        to Home\n</a>\n</h3>\n<ul class=\"specifics\">\n<li>\nJune 2013\nto\nPresent\n</li>\n</ul>\n<div
+        class=\"attribution\"> Team Members:\n<a href=\"http://www.linkedin.com/profile/view?id=6473&amp;authType=name&amp;authToken=c8mU&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Michael
+        &#39;Luni&#39; Libes</a>, <a href=\"http://www.linkedin.com/profile/view?id=214037178&amp;authType=name&amp;authToken=95lv&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Rachel
+        Stamm</a>, Jennifer Williams, Jim Burton, Jennifer Frey, John Halas, <a href=\"http://www.linkedin.com/profile/view?id=49403333&amp;authType=name&amp;authToken=d3Jz&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Erin
+        Hulme</a>, <a href=\"http://www.linkedin.com/profile/view?id=135100982&amp;authType=name&amp;authToken=-q5Y&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Catherine
+        Kennedy</a>, Mike Rehder, <a href=\"http://www.linkedin.com/profile/view?id=1446027&amp;authType=name&amp;authToken=U7S9&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Bruce
+        Schatzman</a>\n</div>\n<div>\n<p class=\" &#39;&#39;\">\nClose to Home is
+        an online post-disaster housing marketplace. The marketplace<br>\naddresses
+        the lack of expedient, sustainable, emergency and interim housing solutions
+        by bringing to market the many design options currently available. With our
+        knowledge and expertise, Close to Home connects buyers with the appropriate
+        manufacturers and services the sale.\n</p>\n<script id=\"control-http-12248-10952934-9\"
+        type=\"linkedin/control\" class=\"li-control\">\n            \n      \n    \n
+        \           LI.Controls.addControl('control-http-12248-10952934-9', 'ShowMore',
+        { charCount:400 });\n          </script>\n</div>\n</li>\n<li class=\"project\">\n<h3>\n<a
+        href=\"/redir/redirect?url=http%3A%2F%2Ffledge%2Eco%2Fdemo-day&amp;urlhash=3fTZ\"
+        target=\"_blank\" title=\"New window will open\" name=\"projectsite\" class=\"url\">\nFledge3
+        Demo Day\n</a>\n</h3>\n<ul class=\"specifics\">\n<li>\nMay 2014\nto\nPresent\n</li>\n</ul>\n<div
+        class=\"attribution\"> Team Members:\n<a href=\"http://www.linkedin.com/profile/view?id=6473&amp;authType=name&amp;authToken=c8mU&amp;goback=%2Enppvan_lunarmobiscuit&amp;trk=member\">Michael
+        &#39;Luni&#39; Libes</a>\n</div>\n<div>\n<p class=\" &#39;&#39;\">\nSix more
+        fledglings tell their inspiration entrepreneurship stories\n</p>\n<script
+        id=\"control-http-12248-10952935-10\" type=\"linkedin/control\" class=\"li-control\">\n
+        \           \n      \n    \n            LI.Controls.addControl('control-http-12248-10952935-10',
+        'ShowMore', { charCount:400 });\n          </script>\n</div>\n</li>\n</ul>\n</div>\n</div>\n<div
+        class=\"section\" id=\"profile-skills\" style=\"display:block\">\n<div class=\"header\">\n<h2>Michael
+        &#39;Luni&#39; Libes' Skills &amp; Expertise\n</h2>\n</div>\n<div class=\"content\">\n<ol
+        class=\"skills\" id=\"skills-list\">\n<li class=\"competency show-bean  \">\n<span
+        class=\"jellybean\">\nEntrepreneurship\n</span>\n</li>\n<li class=\"competency
+        show-bean  \">\n<span class=\"jellybean\">\nBusiness Planning\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nFundraising\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nTeam Building\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nStart-ups\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nVenture Capital\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nSocial Entrepreneurship\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nStrategic Planning\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nStrategic Partnerships\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nStrategy\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nBusiness Development\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nManagement
+        Consulting\n</span>\n</li>\n<li class=\"competency show-bean  \">\n<span class=\"jellybean\">\nMarketing
+        Strategy\n</span>\n</li>\n<li class=\"competency show-bean  \">\n<span class=\"jellybean\">\nSustainability\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nExecutive Management\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nMarketing\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nNew Business
+        Development\n</span>\n</li>\n<li class=\"competency show-bean  \">\n<span
+        class=\"jellybean\">\nCompetitive Analysis\n</span>\n</li>\n<li class=\"competency
+        show-bean  \">\n<span class=\"jellybean\">\nGo-to-market Strategy\n</span>\n</li>\n<li
+        class=\"competency show-bean  \">\n<span class=\"jellybean\">\nThought Leadership\n</span>\n</li>\n<li
+        class=\"competency show-bean  extra-skill\">\n<span class=\"jellybean\">\nCorporate
+        Development\n</span>\n</li>\n<li class=\"competency show-bean  extra-skill\">\n<span
+        class=\"jellybean\">\nSoftware Development\n</span>\n</li>\n<li class=\"competency
+        show-bean  extra-skill\">\n<span class=\"jellybean\">\nBusiness Strategy\n</span>\n</li>\n<li
+        class=\"competency show-bean  extra-skill\">\n<span class=\"jellybean\">\nMobile
+        Devices\n</span>\n</li>\n<li class=\"competency show-bean  extra-skill\">\n<span
+        class=\"jellybean\">\nWireless\n</span>\n</li>\n<li class=\"competency show-bean
+        \ extra-skill\">\n<span class=\"jellybean\">\nManagement\n</span>\n</li>\n<li
+        class=\"competency show-bean  extra-skill\">\n<span class=\"jellybean\">\nCloud
+        Computing\n</span>\n</li>\n<li class=\"competency show-bean  extra-skill\">\n<span
+        class=\"jellybean\">\nNonprofits\n</span>\n</li>\n<li class=\"competency show-bean
+        \ extra-skill\">\n<span class=\"jellybean\">\nBusiness Modeling\n</span>\n</li>\n<li
+        class=\"competency show-bean  extra-skill\">\n<span class=\"jellybean\">\nSaaS\n</span>\n</li>\n<li
+        class=\"competency show-bean  extra-skill\">\n<span class=\"jellybean\">\nMobile
+        Applications\n</span>\n</li>\n<li class=\"competency show-bean  extra-skill\">\n<span
+        class=\"jellybean\">\nProduct Marketing\n</span>\n</li>\n<li class=\"competency
+        show-bean  extra-skill\">\n<span class=\"jellybean\">\nProgram Management\n</span>\n</li>\n<li
+        class=\"competency show-bean  extra-skill\">\n<span class=\"jellybean\">\nAnalytics\n</span>\n</li>\n<li
+        class=\"competency show-bean  extra-skill\">\n<span class=\"jellybean\">\nE-commerce\n</span>\n</li>\n<li
+        class=\"competency show-bean  extra-skill\">\n<span class=\"jellybean\">\nLeadership\n</span>\n</li>\n<li
+        class=\"competency show-bean  extra-skill\">\n<span class=\"jellybean\">\nEnterprise
+        Software\n</span>\n</li>\n<li class=\"competency show-bean  extra-skill\">\n<span
+        class=\"jellybean\">\nConsulting\n</span>\n</li>\n<li class=\"competency show-bean
+        \ extra-skill\">\n<span class=\"jellybean\">\nStrategic Consulting\n</span>\n</li>\n</ol>\n<p
+        class=\"see-more-less\">\n<a href=\"#\">\n<span class=\"more-text\">View All
+        (39) Skills</span>\n<span class=\"less-text\">View Fewer Skills</span>\n</a>\n</p>\n<script
+        id=\"control-http-12248-10952944-11\" type=\"linkedin/control\" class=\"li-control\">\n
+        \           \n      \n        \n        \n        /* extlib: _toggleclass
+        */\n          \n        \n        \n        \n        \n      \n    \n            LI.Controls.addControl('control-http-12248-10952944-11',
+        'ToggleClass', { classname: 'view-all-skills', on: '#profile-skills' });\n
+        \         </script>\n</div>\n</div>\n<div class=\"section subsection-reorder
+        summary-education\" id=\"profile-education\" style=\"display:block\">\n<div
+        class=\"header\">\n<h2>\nMichael &#39;Luni&#39; Libes' Education\n</h2>\n</div>\n<div
+        class=\"content vcalendar\">\n<div>\n<div class=\"position  first education
+        vevent vcard\" id=\"108513\">\n<h3 class=\"summary fn org\">\n<a href=\"/edu/university-of-washington-19657\">University
+        of Washington</a>\n</h3>\n<h4 class=\"details-education\">\n<span class=\"degree\">M.S.</span>,\n<span
+        class=\"major\">\nComputer Science and Engineering </span>\n</h4>\n<p class=\"period\">\n<abbr
+        class=\"dtstart\" title=\"1999-03-01-01-01\">March 1999</abbr> &#8211; <abbr
+        class=\"dtend\" title=\"2000-12-01-12-31\">December 2000</abbr>\n</p>\n<p
+        class=\" desc details-education\">\n</p>\n<p class=\"desc details-education\"
+        name=\"activities\"><em>Activities and Societies:</em>\nCo-taught &quot;Software
+        Entrepreneurship&quot; </p>\n</div>\n<div class=\"position  education vevent
+        vcard\" id=\"108508\">\n<h3 class=\"summary fn org\">\n<a href=\"/edu/carnegie-mellon-19232\">Carnegie
+        Mellon</a>\n</h3>\n<h4 class=\"details-education\">\n<span class=\"degree\">BS</span>,\n<span
+        class=\"major\">\nMath / Computer Science </span>\n</h4>\n<p class=\"period\">\n<abbr
+        class=\"dtstart\" title=\"1987-08-01-01-01\">August 1987</abbr> &#8211; <abbr
+        class=\"dtend\" title=\"1991-06-01-12-31\">June 1991</abbr>\n</p>\n<p class=\"
+        desc details-education\">\n</p>\n<p class=\"desc details-education\" name=\"activities\"><em>Activities
+        and Societies:</em>\nKappa Delta Rho, Mac Mach </p>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"section\" id=\"profile-additional\" style=\"display:block\">\n<div
+        class=\"header\">\n<h2>Michael &#39;Luni&#39; Libes' Additional Information\n</h2>\n</div>\n<div
+        class=\"content\">\n<dl>\n<dt class=\"websites\" style=\"display:block\">Websites:</dt>\n<dd
+        class=\"websites\" style=\"display:block\">\n<ul>\n<li class=\"website\">\n<a
+        href=\"/redir/redirect?url=http%3A%2F%2Fwww%2Emobileintelligencesolutions%2Ecom%2Fsolutions%2Ehtml&amp;urlhash=SeiZ\"
+        target=\"_blank\" title=\"New window will open\">\nMobile Intelligence Solution\n</a>\n</li>\n<li
+        class=\"website\">\n<a href=\"/redir/redirect?url=http%3A%2F%2Fwww%2Egroundtruth%2Ecom%2F&amp;urlhash=Ssrp\"
+        target=\"_blank\" title=\"New window will open\">\nGround Truth\n</a>\n</li>\n<li
+        class=\"website\">\n<a href=\"/redir/redirect?url=http%3A%2F%2Fmedio%2Ecom&amp;urlhash=ShuO\"
+        target=\"_blank\" title=\"New window will open\">\nMedio Systems\n</a>\n</li>\n</ul>\n</dd>\n</dl>\n</div>\n</div>\n<div
+        class=\"section view-full-profile\">\n<div class=\"header\">\n<h3>View Michael
+        &#39;Luni&#39; Libes&#8217; full profile to...</h3>\n</div>\n<div class=\"content\">\n<ul>\n<li>See
+        who you and <strong>Michael &#39;Luni&#39; Libes</strong> know in common</li>\n<li>Get
+        introduced to <strong>Michael &#39;Luni&#39; Libes</strong></li>\n<li>Contact
+        <strong>Michael &#39;Luni&#39; Libes</strong> directly</li>\n</ul>\n<p class=\"btn\">\n<a
+        class=\"action btn-action\" href=\"https://www.linkedin.com/reg/join-pprofile?_ed=0_ey0CD_WZ84mEBE8-Fg7jIZTpYQcz1DVsvT8i9KVdwYcRgCyB1HNqwmO7F_adeYjZxIS7-hEBLwzII5YpCLv93qHuF4UxjXA-BER7EH_nWdL&amp;trk=ppro_viewmore\"
+        rel=\"nofollow\">\nView Michael &#39;Luni&#39;'s full profile\n</a>\n</p>\n</div>\n</div>\n</div>\n<div
+        id=\"extra\">\n<div class=\"leo-module mod-action name-search\">\n<div class=\"header\"><h3>Name
+        Search:</h3></div>\n<div class=\"content\">\n<p><strong>Search for people
+        you know</strong> from over 300 million professionals already on LinkedIn.</p>\n<form
+        name=\"searchForm\" action=\"/pub/dir/\" method=\"get\">\n<ul>\n<li>\n<label
+        for=\"first\">First Name</label>\n<script id=\"control-http-12248-10952952-12\"
+        type=\"linkedin/control\" class=\"li-control\">\n            \n      \n        \n
+        \       \n        /* extlib: _ghostlabel */\n          \n        \n        \n
+        \       \n        \n      \n    \n            LI.Controls.addControl('control-http-12248-10952952-12',
+        'GhostLabel', {});\n          </script>\n<input type=\"text\" name=\"first\"
+        id=\"first\"/>\n</li>\n<li>\n<label for=\"last\">Last Name</label>\n<script
+        id=\"control-http-12248-10952952-13\" type=\"linkedin/control\" class=\"li-control\">\n
+        \           \n      \n    \n            LI.Controls.addControl('control-http-12248-10952952-13',
+        'GhostLabel', {});\n          </script>\n<input type=\"text\" name=\"last\"
+        id=\"last\"/>\n</li>\n</ul>\n<p class=\"action\"><input class=\"search-go\"
+        type=\"submit\" name=\"search\" value=\"Search\"/></p>\n<p class=\"note\">
+        Example:\n<strong>\n<a href=\"http://www.linkedin.com/in/jeffweiner08\" tracking=\"ppro_find_others_rh\">Jeff
+        Weiner</a>\n</strong>\n</p>\n</form>\n</div>\n</div>\n<div class=\"modules
+        panel\">\n<div class=\"leo-module mod-util browsemap\">\n<div class=\"header\">\n<h3><strong>Viewers
+        of this profile also viewed...</strong></h3>\n</div>\n<div class=\"content\">\n<ul>\n<li
+        class=\"with-photo\">\n<a href=\"http://www.linkedin.com/pub/michael-crosson/0/1/700?trk=pub-pbmap\">\n<img
+        src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/spacer.gif\" data-li-src=\"http://m.c.lnkd.licdn.com/mpr/mpr/shrink_40_40/p/1/000/012/04d/21e3185.jpg\"
+        id=\"img-defer-id-1-52953\" class=\"img-defer-hidden img-defer photo\" width=\"40\"
+        height=\"40\" alt=\"Michael Crosson\">\n</a>\n<strong>\n<a href=\"http://www.linkedin.com/pub/michael-crosson/0/1/700?trk=pub-pbmap\">Michael
+        Crosson</a>\n</strong><br>\n<span class=\"headline\">Entrepreneur | Social
+        Entrepreneur |...</span>\n</li>\n<li class=\"with-photo\">\n<a href=\"http://www.linkedin.com/pub/seaton-gras/1/86b/288?trk=pub-pbmap\">\n<img
+        src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/icon/icon_no_photo_40x40.png\"
+        class=\"photo\" height=\"40\" width=\"40\" alt=\"Seaton Gras\">\n</a>\n<strong>\n<a
+        href=\"http://www.linkedin.com/pub/seaton-gras/1/86b/288?trk=pub-pbmap\">Seaton
+        Gras</a>\n</strong><br>\n<span class=\"headline\"></span>\n</li>\n<li class=\"with-photo\">\n<a
+        href=\"http://www.linkedin.com/pub/brian-howe/2/599/704?trk=pub-pbmap\">\n<img
+        src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/spacer.gif\" data-li-src=\"http://m.c.lnkd.licdn.com/mpr/mpr/shrink_40_40/p/2/000/057/085/37533b0.jpg\"
+        id=\"img-defer-id-2-52955\" class=\"img-defer-hidden img-defer photo\" width=\"40\"
+        height=\"40\" alt=\"Brian Howe\">\n</a>\n<strong>\n<a href=\"http://www.linkedin.com/pub/brian-howe/2/599/704?trk=pub-pbmap\">Brian
+        Howe</a>\n</strong><br>\n<span class=\"headline\"></span>\n</li>\n<li class=\"with-photo\">\n<a
+        href=\"http://www.linkedin.com/pub/john-sechrest/0/1a0/3b6?trk=pub-pbmap\">\n<img
+        src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/spacer.gif\" data-li-src=\"http://m.c.lnkd.licdn.com/mpr/mpr/shrink_40_40/p/2/000/050/3bb/270abdb.jpg\"
+        id=\"img-defer-id-3-52955\" class=\"img-defer-hidden img-defer photo\" width=\"40\"
+        height=\"40\" alt=\"John Sechrest\">\n</a>\n<strong>\n<a href=\"http://www.linkedin.com/pub/john-sechrest/0/1a0/3b6?trk=pub-pbmap\">John
+        Sechrest</a>\n</strong><br>\n<span class=\"headline\">Seattle Angel Conference,
+        working on...</span>\n</li>\n<li class=\"with-photo\">\n<a href=\"http://www.linkedin.com/pub/loui-r-byrdziak/47/321/180?trk=pub-pbmap\">\n<img
+        src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/spacer.gif\" data-li-src=\"http://m.c.lnkd.licdn.com/mpr/mpr/shrink_40_40/p/8/005/05f/02b/2e72441.jpg\"
+        id=\"img-defer-id-4-52956\" class=\"img-defer-hidden img-defer photo\" width=\"40\"
+        height=\"40\" alt=\"Loui R. Byrdziak\">\n</a>\n<strong>\n<a href=\"http://www.linkedin.com/pub/loui-r-byrdziak/47/321/180?trk=pub-pbmap\">Loui
+        R. Byrdziak</a>\n</strong><br>\n<span class=\"headline\">CEO Founder | 20+
+        Startups | 6...</span>\n</li>\n<li class=\"with-photo\">\n<a href=\"http://www.linkedin.com/pub/sramana-mitra/0/3/883?trk=pub-pbmap\">\n<img
+        src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/spacer.gif\" data-li-src=\"http://m.c.lnkd.licdn.com/mpr/mpr/shrink_40_40/p/8/005/065/2ab/3122206.jpg\"
+        id=\"img-defer-id-5-52956\" class=\"img-defer-hidden img-defer photo\" width=\"40\"
+        height=\"40\" alt=\"Sramana Mitra\">\n</a>\n<strong>\n<a href=\"http://www.linkedin.com/pub/sramana-mitra/0/3/883?trk=pub-pbmap\">Sramana
+        Mitra</a>\n</strong><br>\n<span class=\"headline\">Founder at One Million
+        by One Million...</span>\n</li>\n<li class=\"with-photo\">\n<a href=\"http://www.linkedin.com/pub/rebecca-lovell/2/22/32?trk=pub-pbmap\">\n<img
+        src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/spacer.gif\" data-li-src=\"http://m.c.lnkd.licdn.com/mpr/mpr/shrink_40_40/p/6/005/039/32f/337108c.jpg\"
+        id=\"img-defer-id-6-52957\" class=\"img-defer-hidden img-defer photo\" width=\"40\"
+        height=\"40\" alt=\"Rebecca Lovell\">\n</a>\n<strong>\n<a href=\"http://www.linkedin.com/pub/rebecca-lovell/2/22/32?trk=pub-pbmap\">Rebecca
+        Lovell</a>\n</strong><br>\n<span class=\"headline\">Startup Liaison at City
+        of Seattle</span>\n</li>\n<li class=\"with-photo\">\n<a href=\"http://www.linkedin.com/pub/zachary-rozga/5/97b/468?trk=pub-pbmap\">\n<img
+        src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/spacer.gif\" data-li-src=\"http://m.c.lnkd.licdn.com/mpr/mpr/shrink_40_40/p/8/000/25b/386/2520683.jpg\"
+        id=\"img-defer-id-7-52958\" class=\"img-defer-hidden img-defer photo\" width=\"40\"
+        height=\"40\" alt=\"Zachary Rozga\">\n</a>\n<strong>\n<a href=\"http://www.linkedin.com/pub/zachary-rozga/5/97b/468?trk=pub-pbmap\">Zachary
+        Rozga</a>\n</strong><br>\n<span class=\"headline\">Social Business, Innovation,
+        and Global...</span>\n</li>\n<li class=\"with-photo\">\n<a href=\"http://www.linkedin.com/pub/geoff-entress/0/4b/446?trk=pub-pbmap\">\n<img
+        src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/spacer.gif\" data-li-src=\"http://m.c.lnkd.licdn.com/mpr/mpr/shrink_40_40/p/5/000/227/2c4/34dabb4.jpg\"
+        id=\"img-defer-id-8-52959\" class=\"img-defer-hidden img-defer photo\" width=\"40\"
+        height=\"40\" alt=\"Geoff Entress\">\n</a>\n<strong>\n<a href=\"http://www.linkedin.com/pub/geoff-entress/0/4b/446?trk=pub-pbmap\">Geoff
+        Entress</a>\n</strong><br>\n<span class=\"headline\"></span>\n</li>\n<li class=\"with-photo\">\n<a
+        href=\"http://www.linkedin.com/pub/jacquelyn-hunter/23/b96/a29?trk=pub-pbmap\">\n<img
+        src=\"http://s.c.lnkd.licdn.com/scds/common/u/img/spacer.gif\" data-li-src=\"http://m.c.lnkd.licdn.com/mpr/mpr/shrink_40_40/p/2/000/0f8/29f/2a1ffb9.jpg\"
+        id=\"img-defer-id-9-52959\" class=\"img-defer-hidden img-defer photo\" width=\"40\"
+        height=\"40\" alt=\"Jacquelyn Hunter\">\n</a>\n<strong>\n<a href=\"http://www.linkedin.com/pub/jacquelyn-hunter/23/b96/a29?trk=pub-pbmap\">Jacquelyn
+        Hunter</a>\n</strong><br>\n<span class=\"headline\">Founder &amp; CEO at Profit+Impact
+        Partners</span>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"ad-block\">\n<script
+        type=\"text/javascript\">var dbl_page = 'public_profile';</script>\n<script
+        type=\"text/javascript\">\n      /* <![CDATA[ */\n      \n        var dbl_src
+        = \"http://ad.doubleclick.net/adj/linkedin.dart/\" + dbl_page + \";lang=en;tile=1;dcopt=ist;sz=300x250;;;company=3320208;company=2558005;company=2675020;company=23205;company=2266031;pcntry=us;s=0;ord=\"
+        + Math.random() * 10000000000000000 +\"?\";\n        document.write('<sc'
+        + 'ript src=\"' + dbl_src + '\" type=\"text/javascript\"><\\/scr' + 'ipt>');\n
+        \     /* ]]> */\n        </script>\n</div>\n</div>\n</div>\n</div>\n<script
+        type=\"text/javascript\">LI.Controls.processQueue();</script>\n<div id=\"footer\">\n<div
+        class=\"wrapper\">\n<div id=\"directory\" class=\"us\">\n<h3>\nLinkedIn member
+        directory - Browse members <a href=\"/static?key=country_listing\">by country</a>\n</h3>\n<ol
+        type=\"a\" class=\"primary\">\n<li>\n<a href=\"/directory/people-a\">a</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-b\">b</a>\n</li>\n<li>\n<a href=\"/directory/people-c\">c</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-d\">d</a>\n</li>\n<li>\n<a href=\"/directory/people-e\">e</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-f\">f</a>\n</li>\n<li>\n<a href=\"/directory/people-g\">g</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-h\">h</a>\n</li>\n<li>\n<a href=\"/directory/people-i\">i</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-j\">j</a>\n</li>\n<li>\n<a href=\"/directory/people-k\">k</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-l\">l</a>\n</li>\n<li>\n<a href=\"/directory/people-m\">m</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-n\">n</a>\n</li>\n<li>\n<a href=\"/directory/people-o\">o</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-p\">p</a>\n</li>\n<li>\n<a href=\"/directory/people-q\">q</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-r\">r</a>\n</li>\n<li>\n<a href=\"/directory/people-s\">s</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-t\">t</a>\n</li>\n<li>\n<a href=\"/directory/people-u\">u</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-v\">v</a>\n</li>\n<li>\n<a href=\"/directory/people-w\">w</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-x\">x</a>\n</li>\n<li>\n<a href=\"/directory/people-y\">y</a>\n</li>\n<li>\n<a
+        href=\"/directory/people-z\">z</a>\n</li>\n<li>\n<a href=\"/directory/people-1\"
+        class=\"callout-trigger nlcl-hovercard-trigger\">more</a>\n</li>\n</ol>\n</div>\n<p
+        id=\"terms-of-use\">\nBy using this site, you agree to LinkedIn's <a rel=\"nofollow\"
+        href=\"/static?key=user_agreement&trk=ftr_useragre\">terms of use</a>. Commercial
+        use of this site without express authorization is prohibited.\n</p>\n<p id=\"copyright\">LinkedIn
+        Corporation &copy; 2014</p>\n<ul id=\"nav-legal\">\n<li><a href=\"/static?key=user_agreement&amp;trk=hb_ft_userag\">User
+        Agreement</a></li>\n<li><a href=\"/static?key=privacy_policy&amp;trk=hb_ft_priv\">Privacy
+        Policy</a></li>\n<li><a href=\"/legal/cookie-policy\">Cookie Policy</a></li>\n<li
+        class=\"last\"><a href=\"/static?key=copyright_policy&amp;trk=hb_ft_copy\">Copyright
+        Policy</a></li>\n</ul>\n</div>\n</div>\n<script type=\"text/javascript\">\n\n
+        \     if (!window.LI) { window.LI = {}; }\n      LI.RUM = LI.RUM || {};\n\n
+        \     (function(RUM, win) {\n\n        var doc = win.document;\n\n        RUM.flags
+        = RUM.flags || {};\n        RUM.flags['host-flag'] = \"control\";\n        RUM.flags['pop_beacons_frequency']
+        = \"n50\";\n\n        RUM.urls = RUM.urls || {};\n        RUM.urls['rum-track']
+        = \"/lite/rum-track?csrfToken=ajax%3A2038187983206922454\";\n        RUM.urls['boomerang-bw-img']
+        = \"http://s.c.lnkd.licdn.com/scds/common/u/lib/boomerang/0.9.edge.4ab208445a/img/\";\n\n
+        \       RUM.base_urls = RUM.base_urls || {};\n        RUM.base_urls['permanent_content']
+        = \"http://s.c.lnkd.licdn.com/scds/common/u/\";\n        RUM.base_urls['versioned_content']
+        = \"http://s.c.lnkd.licdn.com/scds/concat/common/\";\n        RUM.base_urls['media_proxy']
+        = \"http://m.c.lnkd.licdn.com/media-proxy/\";\n\n        \n          \n          \n
+        \         RUM.serverStartTime = 1.403632536773E12;\n        \n\n        RUM.enabled
+        = true;\n\n        \n        function getRumScript() {\n          var node
+        = doc.body || doc.head || doc.getElementsByTagName('head')[0],\n              script
+        = doc.createElement('script');\n          script.src = \n      \n        \n
+        \           \n              \n              \n                [\"http://s.c.lnkd.licdn.com/scds/concat/common/js?h=ed29nkjpsa16bhrjq4na16owq-1mucgfycc664m7vmhpjgqse65-1l5rurej3h44qodo5rn0cdvyn-8om6v2ckrxsbnwf40t9ta8a7e-6twiyur1ifxc26u5qq77bm02p-bcnnft1f7bao2zsny6fcc98pw-cz8o4v1lqi6hq7gyskasifgyo-aac54ic1fmca5xz1yvc5t9nfe-7lkk9zussqdgvhydda9ax8owr&fc=2\"]\n
+        \             \n            \n          \n        \n      \n    [0];\n          node.appendChild(script);\n
+        \       }\n\n        \n        if (win.addEventListener) {\n          win.addEventListener('load',
+        getRumScript);\n        }\n        else {\n          win.attachEvent('onload',
+        getRumScript);\n        }\n\n      }(LI.RUM, window));\n\n    </script>\n<script
+        type=\"text/javascript\">\n if ( window.LI && LI.showAllDeferredImg && !LI.imgDeferFoldCheckDone
+        ) { \n LI.showAllDeferredImg( null, false );\n }\n</script>\n<script id=\"localChrome\"></script>\n<script
+        type=\"text/javascript\">\n      var _gaq = _gaq || [];\n      _gaq.push(['_setAccount',
+        'UA-3242811-1']);\n      _gaq.push(['_setDomainName', '.linkedin.com']);\n
+        \     _gaq.push(['_trackPageview', 'nprofile-public-success']);\n      _gaq.push(['_setVar',
+        'guest']);\n      \n      \n      YEvent.on( window, 'load', function() {\n
+        \       YAHOO.util.Get.script(\"http://www.google-analytics.com/ga.js\");\n
+        \     });\n    </script>\n<script type=\"text/javascript\">/* <![CDATA[ */\n(function()
+        {\n\n  var bcookie = escape( LI.readCookie(\"bcookie\") ),\n    newTrkInfo
+        = '6473,' + document.referrer.substr(0,128),\n    alias_secure = 'https://www.linkedin.com/analytics/noauthtracker?type=leo%2EpageTracking&pageType=full_page&pageKey=nprofile-public-success_jsbeacon&trkInfo=REPLACEME',\n
+        \   alias_normal = '/analytics/noauthtracker?type=leo%2EpageTracking&pageType=full_page&pageKey=nprofile-public-success_jsbeacon&trkInfo=REPLACEME',\n
+        \   is_secure = false,\n    url = (is_secure) ? alias_secure : alias_normal;\n\n
+        \ url = url.replace(\"REPLACEME\", newTrkInfo);\n\n  if (bcookie) {\n    if(window.$
+        && $.ajax){\n      $.ajax(url);\n    } else {\n      YAHOO.util.Connect.asyncRequest(
+        'get', url, {} );\n    }\n  }\n\n})();\n/* ]]> */</script>\n<script type=\"text/javascript\">\n
+        \       \n          \n      \n        \n          \n            \n              \n
+        \     \n    \n            \n          \n        \n          \n            \n
+        \             \n      \n    \n            \n          \n        \n          \n
+        \           \n              \n      \n    \n            \n          \n        \n
+        \         \n            \n              \n      \n    \n            \n          \n
+        \       \n          \n            \n              \n      \n    \n            \n
+        \         \n        \n          \n            \n              \n      \n    \n
+        \           \n          \n        \n          \n            \n              \n
+        \     \n    \n            \n          \n        \n          \n            \n
+        \             \n      \n    \n            \n          \n        \n          \n
+        \           \n              \n      \n    \n            \n          \n        \n
+        \         \n            \n              \n      \n    \n            \n          \n
+        \       \n          \n            \n              \n      \n    \n            \n
+        \         \n        \n          \n            \n              \n      \n    \n
+        \           \n          \n        \n          \n            \n              \n
+        \     \n    \n            \n          \n        \n        LI_WCT([\n        \n
+        \         \n            \n              \"control-http-12248-10952921-1\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952923-2\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952924-3\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952925-4\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952928-5\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952929-6\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952930-7\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952932-8\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952934-9\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952935-10\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952944-11\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952952-12\",\n
+        \           \n          \n        \n          \n            \n              \"control-http-12248-10952952-13\",\n
+        \           \n          \n        \n        ]);\n      \n    \n          \n
+        \           \n          \n        \n        \n      </script>\n<script type=\"text/javascript\">LI.Controls.processQueue();</script>\n<script
+        type=\"text/javascript\">\n      $(window).load(function() {\n        $.getScript(
+        'http://b.scorecardresearch.com/beacon.js')\n          .done(function() {\n
+        \           COMSCORE.beacon({ c1:2, c2:6402952, c3:\"\", c4:\"\", c5:\"\",
+        c6:\"\", c15:\"\" });\n           });        \n      });\n    </script>\n<noscript>\n<img
+        src=\"http://b.scorecardresearch.com/b?c1=2&amp;c2=6402952&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1\"
+        style=\"display:none\" width=\"0\" height=\"0\" alt=\"\"/>\n</noscript>\n<script
+        type=\"text/javascript\">\n  LI.define('Tracking.Quantcast');\n  LI.Tracking.Quantcast
+        = function() {\n    _qoptions = { qacct:\"p-b3sGjMtCFrexE\" };\n    YAHOO.util.Get.script(
+        'http://edge.quantserve.com/quant.js' );\n  };\n  YEvent.on( window, 'load',
+        LI.Tracking.Quantcast);\n</script>\n<noscript>\n<a href=\"http://www.quantcast.com/p-b3sGjMtCFrexE\"
+        target=\"_blank\"><img src=\"http://pixel.quantserve.com/pixel/p-b3sGjMtCFrexE.gif\"
+        style=\"display: none;\" height=\"1\" width=\"1\" alt=\"\"/></a>\n</noscript>\n<script
+        type=\"text/javascript\">\n  YEvent.on( window, 'load', function() {\n    (function
+        () {\n      var protocol = 'http:';\n      var d = new Image(1, 1);\n      d.onerror
+        = d.onload = function () { d.onerror = d.onload = null; };\n      d.src =
+        [\n        protocol,\n        \"//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&cg=0&cc=1&si=\",\n
+        \       escape(window.location.href),\n        \"&ts=compact&rnd=\",\n        (new
+        Date()).getTime()\n      ].join('');\n    })();\n  });\n</script>\n<noscript>\n<img
+        src=\"http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&cg=0&cc=1&ts=noscript\"
+        width=\"1\" height=\"1\" alt=\"\" style=\"display:none\"/>\n</noscript>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 24 Jun 2014 17:55:03 GMT
+recorded_with: VCR 2.9.2
