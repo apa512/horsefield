@@ -1,5 +1,6 @@
 require 'nokogiri'
 require "horsefield/version"
+require "horsefield/scraper"
 
 module Horsefield
   def self.scrape(url_or_html, &block)
