@@ -12,9 +12,18 @@ describe Horsefield::Scraper do
 
   describe '#scrape' do
     it 'should take a block with attributes to scrape' do
-      scraper.scrape do
-        name '.profile-header .full-name'
+      data = scraper.scrape do
+        scope '.profile-header' do
+          one :name, '//span[@class="full-name"]'
+        end
+
+        many :experiences, '#profile-experience .position' do
+          one :headline, 'span.title'
+        end
       end
+
+      data[:name].should == "Michael 'Luni' Libes"
+      data[:experiences].first[:headline].should == 'Founder and Managing Director'
     end
   end
 end

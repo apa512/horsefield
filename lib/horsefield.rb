@@ -1,3 +1,4 @@
+require 'nokogiri'
 require "horsefield/version"
 
 module Horsefield
