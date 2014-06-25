@@ -11,7 +11,7 @@ module Horsefield
     def scrape(&block)
       doc = Nokogiri::HTML(html)
       doc.instance_eval(&block)
-      doc.attrs
+      doc.nodes
     end
 
     def html

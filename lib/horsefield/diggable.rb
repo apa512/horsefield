@@ -1,21 +1,23 @@
 module Horsefield
   module Diggable
+    attr_writer :nodes
+
     def scope(selector, &block)
       doc = at(selector)
       doc.instance_eval(&block)
-      @attrs = attrs.merge(doc.attrs)
+      @nodes = nodes.merge(doc.nodes)
     end
 
     def one(name, selector = nil, &block)
-      doc = selector ? at(selector) : self
-      self.attrs[name] = doc && doc.instance_eval(&processor(&block))
+      doc = selector ? at(selector) : self.clone.tap { |s| s.nodes = {} }
+      self.nodes[name] = doc.instance_eval(&processor(&block))
+      self.nodes
     end
 
-    def many(name, selector = nil, &block)
-      doc = selector ? search(selector) : self
-      self.attrs[name] = doc.map do |doc|
+    def many(name, selector, &block)
+      self.nodes[name] = search(selector).map do |doc|
         doc.instance_eval(&processor(&block))
-        doc.attrs
+        doc.nodes
       end
     end
 
@@ -23,8 +25,8 @@ module Horsefield
       block || Proc.new { text.strip }
     end
 
-    def attrs
-      @attrs ||= {}
+    def nodes
+      @nodes ||= {}
     end
   end
 end
