@@ -7,7 +7,7 @@ module Horsefield
     end
 
     def one(name, selector, &block)
-      self.nodes[name] = at(selector).instance_eval(&processor(&block))
+      self.nodes[name] = at(selector) && at(selector).instance_eval(&processor(&block))
     end
 
     def many(name, selector, &block)
