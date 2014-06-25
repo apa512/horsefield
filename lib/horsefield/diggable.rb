@@ -10,7 +10,7 @@ module Horsefield
 
     def one(name, selector = nil, &block)
       doc = selector ? at(selector) : self.clone.tap { |s| s.nodes = {} }
-      self.nodes[name] = doc.instance_eval(&processor(&block))
+      self.nodes[name] = doc && doc.instance_eval(&processor(&block))
       self.nodes
     end
 
