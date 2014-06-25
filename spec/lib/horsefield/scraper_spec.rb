@@ -17,6 +17,10 @@ describe Horsefield::Scraper do
           one :name, '//span[@class="full-name"]'
         end
 
+        one :info do
+          one :name, 'span.full-name'
+        end
+
         many :experiences, '#profile-experience .position' do
           one :headline, 'span.title'
         end
