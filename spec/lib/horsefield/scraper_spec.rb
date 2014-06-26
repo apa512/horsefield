@@ -26,7 +26,13 @@ describe Horsefield::Scraper do
             attr('title').split('-').first.to_i
           end
         end
+
+        one :company do
+          one :name, '.postitle h4'
+        end
       end
+
+      p data[:company]
 
       data[:name].should == "Michael 'Luni' Libes"
       data[:experiences].first[:headline].should == 'Founder and Managing Director'
