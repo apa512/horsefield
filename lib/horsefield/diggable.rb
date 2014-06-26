@@ -17,8 +17,9 @@ module Horsefield
     def many(name, selector, &block)
       self.nodes[name] = search(selector).map do |doc|
         doc.instance_eval(&processor(&block))
-        doc.nodes
       end
+
+      self.nodes
     end
 
     def processor(&block)
