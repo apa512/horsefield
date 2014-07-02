@@ -4,6 +4,7 @@ module Horsefield
 
     def scope(selector, &block)
       doc = at(selector)
+      return unless doc
       doc.instance_eval(&block)
       @nodes = nodes.merge(doc.nodes)
     end
@@ -11,7 +12,6 @@ module Horsefield
     def one(name, selector = nil, &block)
       doc = selector ? at(selector) : self.clone.tap { |s| s.nodes = {} }
       self.nodes[name] = doc && doc.instance_eval(&processor(&block))
-      #binding.pry if name == :company
       self.nodes
     end
 
