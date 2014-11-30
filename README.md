@@ -1,6 +1,6 @@
 # Horsefield
 
-TODO: Write a gem description
+Scrape stuff
 
 ## Installation
 
@@ -18,7 +18,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Horsefield::Scraper.new('https://news.ycombinator.com').scrape do
+  scope '//body//table' do
+    many :posts, './/td[@class="title"][2]' do
+      one :title, 'a'
+      one :url, './a/@href'
+    end
+  end
+end
+
+# =>
+# { posts:
+#     [{ title: "Nobody expects CDATA sections in XML",
+#        url: "http://lcamtuf.blogspot.com/2014/11/afl-fuzz-nobody-expects-cdata-sections.html" },
+#     ...] }
+```
 
 ## Contributing
 
