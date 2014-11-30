@@ -4,6 +4,7 @@ module Horsefield
 
     def scope(selector, &block)
       doc = at(selector)
+      return unless doc
       doc.instance_eval(&block)
       @nodes = nodes.merge(doc.nodes)
     end
