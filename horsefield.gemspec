@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Erik Strömberg"]
   spec.email         = ["erik.stromberg@gmail.com"]
   spec.summary       = %q{It's a scraper}
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/apa512/horsefield"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
