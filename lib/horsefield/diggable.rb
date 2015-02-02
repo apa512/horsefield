@@ -1,34 +1,37 @@
 module Horsefield
   module Diggable
-    attr_writer :nodes
-
-    def scope(selector, &block)
-      doc = at(selector)
-      return unless doc
-      doc.instance_eval(&block)
-      @nodes = nodes.merge(doc.nodes)
-    end
-
-    def one(name, selector = nil, &block)
-      doc = selector ? at(selector) : self.clone.tap { |s| s.nodes = {} }
-      self.nodes[name] = doc && doc.instance_eval(&processor(&block))
-      self.nodes
-    end
-
-    def many(name, selector, &block)
-      self.nodes[name] = search(selector).map do |doc|
+    def many(name, selector, lookup = :optional, &block)
+      docs = search(selector)
+      raise MissingSelectorError if lookup == :required && docs.empty?
+      nodes = docs.map do |doc|
         doc.instance_eval(&processor(&block))
       end
 
-      self.nodes
+      fields.merge!(Hash[[[name, nodes]]])
+    end
+
+    def many!(name, selector, &block)
+      many(name, selector, :required, &block)
+    end
+
+    def one(name, selector = nil, lookup = :optional, &block)
+      doc = selector ? at(selector) : self
+      raise MissingSelectorError if lookup == :required && !doc
+      fields.merge!(Hash[[[name, doc && doc.instance_eval(&processor(&block))]]])
+    end
+
+    def one!(name, selector = nil, &block)
+      one(name, selector, :required, &block)
     end
 
     def processor(&block)
       block || Proc.new { text.strip }
     end
 
-    def nodes
-      @nodes ||= {}
+    def fields
+      @fields ||= {}
     end
   end
+
+  class MissingSelectorError < StandardError; end
 end

@@ -1,9 +1,8 @@
-require 'nokogiri'
-require "horsefield/version"
-require "horsefield/scraper"
+require 'horsefield/version'
+require 'horsefield/scraper'
+require 'horsefield/diggable'
+require 'horsefield/nokogiri'
 
 module Horsefield
-  def self.scrape(url_or_html, &block)
-    Horsefield::Scraper.new(url_or_html).scrape(&block)
-  end
+  # Your code goes here...
 end

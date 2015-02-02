@@ -1,12 +1,14 @@
 # Horsefield
 
-Scrape stuff
+TODO: Write a gem description
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'horsefield'
+```ruby
+gem 'horsefield'
+```
 
 And then execute:
 
@@ -18,26 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-```ruby
-Horsefield::Scraper.new('https://news.ycombinator.com').scrape do
-  scope '//body//table' do
-    many :posts, './/td[@class="title"][2]' do
-      one :title, 'a'
-      one :url, './a/@href'
-    end
-  end
-end
-
-# =>
-# { posts:
-#     [{ title: "Nobody expects CDATA sections in XML",
-#        url: "http://lcamtuf.blogspot.com/2014/11/afl-fuzz-nobody-expects-cdata-sections.html" },
-#     ...] }
-```
+TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/apa512/horsefield/fork )
+1. Fork it ( https://github.com/[my-github-username]/horsefield/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
