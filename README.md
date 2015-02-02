@@ -1,6 +1,6 @@
 # Horsefield
 
-TODO: Write a gem description
+It's a scraper
 
 ## Installation
 
@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Scrape!
 
 ## Contributing
 
