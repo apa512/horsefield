@@ -25,10 +25,8 @@ module Horsefield
     end
 
     module ClassMethods
-      @@lambdas = []
-
       def lambdas
-        @@lambdas
+        @lambdas ||= []
       end
 
       def one(name, selector, lookup = :optional, &block)
@@ -37,6 +35,22 @@ module Horsefield
 
       def many(name, selector, lookup = :optional, &block)
         self.lambdas << lambda { |doc| doc.many(name, selector, lookup, &block) }
+      end
+
+      def many!(name, selector, &block)
+        many(name, selector, :required, &block)
+      end
+
+      def many?(name, selector, &block)
+        many(name, selector, :presence, &block)
+      end
+
+      def one!(name, selector = nil, &block)
+        one(name, selector, :required, &block)
+      end
+
+      def one?(name, selector = nil, &block)
+        one(name, selector, :presence, &block)
       end
 
       def scope(selector, &block)
