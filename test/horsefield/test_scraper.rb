@@ -4,6 +4,10 @@ require 'pry'
 class RecipeScraper
   include Horsefield::Scraper
 
+  helper :convert_time do |str|
+    str.upcase
+  end
+
   scope '.hide_from_screen' do
     one :title, 'h1'
     one :description, 'h2'
@@ -12,6 +16,10 @@ class RecipeScraper
   many :nutritional_value, 'article.recipe_nutrition ul li' do
     one(:type) { at('span').text }
     one(:value) { at('span.value').text }
+  end
+
+  one :total_time, '//div[contains(@style, "time.gif")]' do
+    convert_time(text.strip)
   end
 
   postprocess do |doc|

@@ -34,6 +34,14 @@ module Horsefield
         @postprocessor || Proc.new { self }
       end
 
+      def helper(name, &block)
+        [Nokogiri::HTML::Document, Nokogiri::XML::Element].each do |klass|
+          klass.instance_eval do
+            define_method(name) { |*args| block.call(*args) }
+          end
+        end
+      end
+
       def one(name, selector, lookup = :optional, &block)
         self.lookups << lambda { |doc| doc.one(name, selector, lookup, &block) }
       end
