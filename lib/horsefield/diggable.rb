@@ -16,7 +16,7 @@ module Horsefield
     def one(name, selector = nil, lookup = :optional, &block)
       doc = selector ? at(selector) : self
 
-      raise MissingSelectorError.new("Couldn't find required selector (#{selector})" if lookup == :required && !doc
+      raise MissingSelectorError.new("Couldn't find required selector (#{selector})") if lookup == :required && !doc
       return fields if lookup == :presence && !doc
 
       fields.merge!(Hash[[[name, doc && doc.instance_eval(&processor(&block))]]])
