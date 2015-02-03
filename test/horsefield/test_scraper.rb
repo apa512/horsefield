@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'pry'
 
 class RecipeScraper
   include Horsefield::Scraper
@@ -11,6 +12,11 @@ class RecipeScraper
   many :nutritional_value, 'article.recipe_nutrition ul li' do
     one(:type) { at('span').text }
     one(:value) { at('span.value').text }
+  end
+
+  postprocess do |doc|
+    doc[:nutritional_value] = doc[:nutritional_value].uniq.compact
+    doc
   end
 end
 
@@ -41,6 +47,7 @@ class TestScraper < Minitest::Test
 
   def test_that_it_scrapes
     recipe = RecipeScraper.new(@html).scrape
+    p recipe
 
     assert_equal 'Traditional Welsh cawl', recipe[:title]
   end

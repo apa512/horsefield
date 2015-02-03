@@ -21,20 +21,25 @@ module Horsefield
     end
 
     def fields
-      @fields ||= self.class.lambdas.reduce({}) { |fields, l| fields.merge(l.call(@doc)) }
+      @fields ||= self.class.lookups.reduce({}) { |fields, l| fields.merge(l.call(@doc)) }.
+        instance_eval(&self.class.postprocessor)
     end
 
     module ClassMethods
-      def lambdas
-        @lambdas ||= []
+      def lookups
+        @lookups ||= []
+      end
+
+      def postprocessor
+        @postprocessor || Proc.new { self }
       end
 
       def one(name, selector, lookup = :optional, &block)
-        self.lambdas << lambda { |doc| doc.one(name, selector, lookup, &block) }
+        self.lookups << lambda { |doc| doc.one(name, selector, lookup, &block) }
       end
 
       def many(name, selector, lookup = :optional, &block)
-        self.lambdas << lambda { |doc| doc.many(name, selector, lookup, &block) }
+        self.lookups << lambda { |doc| doc.many(name, selector, lookup, &block) }
       end
 
       def many!(name, selector, &block)
@@ -54,7 +59,11 @@ module Horsefield
       end
 
       def scope(selector, &block)
-        self.lambdas << lambda { |doc| doc.at(selector).instance_eval(&block) }
+        self.lookups << lambda { |doc| doc.at(selector).instance_eval(&block) }
+      end
+
+      def postprocess(&block)
+        @postprocessor = block
       end
     end
   end
