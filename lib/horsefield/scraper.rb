@@ -4,6 +4,13 @@ require 'nokogiri'
 
 module Horsefield
   module Scraper
+    def self.scrape(html_or_url, &block)
+      Class.new {
+        include Horsefield::Scraper
+        instance_eval(&block)
+      }.new(html_or_url).scrape
+    end
+
     def self.included(base)
       base.extend(ClassMethods)
     end

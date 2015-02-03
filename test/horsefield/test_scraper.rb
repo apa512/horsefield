@@ -55,7 +55,6 @@ class TestScraper < Minitest::Test
 
   def test_that_it_scrapes
     recipe = RecipeScraper.new(@html).scrape
-    p recipe
 
     assert_equal 'Traditional Welsh cawl', recipe[:title]
   end
@@ -67,5 +66,13 @@ class TestScraper < Minitest::Test
 
   def test_that_it_raises_with_missing_required_field
     assert_raises(Horsefield::MissingSelectorError) { RecipeScraperWithRequiredField.new(@html).scrape }
+  end
+
+  def test_standalone_scraper
+    recipe = Horsefield::Scraper.scrape(@html) do
+      one :title, '.hide_from_screen h1'
+    end
+
+    assert_equal 'Traditional Welsh cawl', recipe[:title]
   end
 end
