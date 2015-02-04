@@ -3,7 +3,7 @@ module Horsefield
     def many(name, selector, lookup = :optional, &block)
       docs = search(selector)
 
-      raise MissingSelectorError if lookup == :required && docs.empty?
+      raise MissingSelectorError, "Couldn't find required selector (#{selector})" if lookup == :required && docs.empty?
       return fields if lookup == :presence && docs.empty?
 
       nodes = docs.map do |doc|
@@ -16,7 +16,7 @@ module Horsefield
     def one(name, selector = nil, lookup = :optional, &block)
       doc = selector ? at(selector) : self
 
-      raise MissingSelectorError.new("Couldn't find required selector (#{selector})") if lookup == :required && !doc
+      raise MissingSelectorError, "Couldn't find required selector (#{selector})" if lookup == :required && !doc
       return fields if lookup == :presence && !doc
 
       fields.merge!(Hash[[[name, doc && doc.instance_eval(&processor(&block))]]])
