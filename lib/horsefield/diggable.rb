@@ -1,5 +1,10 @@
 module Horsefield
   module Diggable
+    def with_fresh_fields
+      @fields = {}
+      self
+    end
+
     def many(name, selector, lookup = :optional, &block)
       docs = search(selector)
 
@@ -19,7 +24,7 @@ module Horsefield
       raise MissingSelectorError, "Couldn't find required selector (#{selector})" if lookup == :required && !doc
       return fields if lookup == :presence && !doc
 
-      fields.merge!(Hash[[[name, doc && doc.instance_eval(&processor(&block))]]])
+      fields.merge!(Hash[[[name, doc && doc.with_fresh_fields.instance_eval(&processor(&block))]]])
     end
 
     def many!(name, selector, &block)

@@ -55,7 +55,6 @@ class TestScraper < Minitest::Test
 
   def test_that_it_scrapes
     recipe = RecipeScraper.new(@html).scrape
-
     assert_equal 'Traditional Welsh cawl', recipe[:title]
   end
 
