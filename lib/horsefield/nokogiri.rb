@@ -8,4 +8,8 @@ module Horsefield
   class Nokogiri::XML::Element
     include Diggable
   end
+
+  class Nokogiri::XML::Attr
+    include Diggable
+  end
 end
