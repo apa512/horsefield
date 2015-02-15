@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 Define a scraper:
-```
+```ruby
 class RedditScraper
   include Horsefield::Scraper
 
@@ -34,11 +34,11 @@ class RedditScraper
 end
 ```
 and use it with a URL or an HTML string:
-```
+```ruby
 RedditScraper.new('http://www.reddit.com').scrape
 ```
 Enjoy:
-```
+```ruby
 {:posts=>
   [{:title=>"Chris Pratt, homeless, living in this van, holding the script to his first acting job",
     :links=>["http://www.reddit.com/user/Ripsaw99", "http://www.reddit.com/r/pics/", "http://www.reddit.com/r/pics/comments/2v16z9/chris_pratt_homeless_living_in_this_van_holding/"]},
