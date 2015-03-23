@@ -9,6 +9,7 @@ class RedditScraper
     one :tagline, 'p.tagline' do
       one :submitted, './time/@datetime'
       one :subreddit, 'a.subreddit'
+      one? :missing, '.missing'
     end
     many :links, './/a[contains(@href, "reddit.com")]/@href'
   end
@@ -23,6 +24,6 @@ class TestScraper < Minitest::Test
 
   def test_scraper
     reddit = RedditScraper.new(@html).scrape
-    p reddit
+    p reddit[:posts].first[:tagline]
   end
 end

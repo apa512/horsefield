@@ -19,7 +19,7 @@ module Horsefield
     end
 
     def one(name, selector = nil, lookup = :optional, &block)
-      doc = selector ? at(selector) : self
+      doc = selector ? at(selector) : self.dup
 
       raise MissingSelectorError, "Couldn't find required selector (#{selector})" if lookup == :required && !doc
       return fields if lookup == :presence && !doc
