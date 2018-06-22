@@ -15,8 +15,14 @@ module Horsefield
       base.extend(ClassMethods)
     end
 
-    def initialize(html_or_url)
-      @doc = Nokogiri::HTML(html_or_url =~ /\A#{URI::regexp}\Z/ ? open(html_or_url).read : html_or_url)
+    def initialize(html_xml_or_url)
+      html_xml_or_url = open(html_xml_or_url).read if html_xml_or_url =~ /\A#{URI::regexp}\Z/
+
+      @doc = if html_xml_or_url =~ /\A<\?xml/
+               Nokogiri::XML(html_xml_or_url)
+             else
+               Nokogiri::HTML(html_xml_or_url)
+             end
     end
 
     def [](field)

@@ -17,13 +17,25 @@ class RedditScraper
   many :trending, '.trending-subreddits-content > ul > li a'
 end
 
+class XMLScraper
+  include Horsefield::Scraper
+
+  many :jobs, '//item' do
+    one :title, 'title'
+    one :url, 'link'
+  end
+end
+
 class TestScraper < Minitest::Test
   def setup
     @html = File.read(File.expand_path('../../reddit_source.html', __FILE__)).force_encoding('UTF-8')
+    @xml = File.read(File.expand_path('../../jobs.rss', __FILE__)).force_encoding('UTF-8')
   end
 
   def test_scraper
-    reddit = RedditScraper.new(@html).scrape
-    p reddit[:posts].first[:tagline]
+    # reddit = RedditScraper.new(@html).scrape
+    # p reddit[:posts].first[:tagline]
+    # jobs = XMLScraper.new(@xml).scrape
+    # p jobs
   end
 end

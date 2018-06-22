@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+<channel>
+<atom:link href='https://jobs.braveclojure.com' rel='self' type='application/rss+xml'/>
+<title>
+Brave Clojure Jobs
+</title>
+<link>
+https://jobs.braveclojure.com
+</link>
+<description>
+Find a Clojure job and use the language you love
+</description>
+<generator>
+clj-rss
+</generator>
+<item>
+<title>
+SOFTWARE ARCHITECT BACKEND
+</title>
+<link>
+https://jobs.braveclojure.com/jobs/17592186046668/software-architect-backend-linkfluence
+</link>
+<pubDate>
+Thu, 31 May 2018 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[<div><h1>SOFTWARE ARCHITECT BACKEND</h1><div class="company-name">Linkfluence | Paris</div><div><em>Linkfluence is a leading Social Data Intelligence company</em></div><div>â‚¬40000 - â‚¬60000</div><div><a href="https://linkfluence.com/">https://linkfluence.com/</a></div><br /><div><p>Linkfluence is a leading Social Data Intelligence company, offering organisations a unique approach to monitor, analyse and leverage social media. Thanks to our social media intelligence platform Radarly and the associated services, Linkfluence captures and analyses more than 200 million posts per day from over 300 million sources in 61 languages. </p><p>Founded in 2006 in France, Linkfluence has more than 200 talented people in its offices in the UK, France, Germany, China and Singapore and is growing strongly. We work with over 350 brands, agencies and public organisations including worldwide-known companies such as: Danone, LVMH, Orange, AirBnB, Infinity, Publicis... </p><p>You will be working with a young, energetic and rapidly growing international team. We are looking for passionate and smart people to help us shape the future of social data intelligence.</p><p>Linkfluence is looking for a talented and inventive Software Architect Backend to join our team. You will implement, optimize and deploy a range of data connectors (micro-service architecture) for analyzing big data at scale into our application.</p><p>Being experienced and considered as an expert, you'll benefit from a large autonomy and decision scope. </p><p>You'll work alongside a small team of passionate developers in a tech-centric and design-centric environment to develop new features and improve the user experience in Radarly:</p><p>â— Develop new social media connectors.</p><p>â— Develop state-of-the-art machine learning approaches to enhance our web crawler performances: spam detection, web content extraction, refresh strategies</p><p>â— Solve business requirements into practical software solutions and meet stated objectives</p><p>â— Make use of existing architecture to develop new features</p><p>â— Be part of the innovation process by suggesting new ideas in a strong R&amp;D environment</p><h1>ABOUT YOU</h1><p>â— A solid background in Computer Science (data structures, algorithms, software design)</p><p>â— Experience with functional programming (Scala, Clojure, etc.) is a plus</p><p>â— Experience with Big Data technologies such as Elasticsearch, HBase, Spark, Storm, Kafka, is a plus</p><p>â— Interest in full software development lifecycle activities: requirements management, technical design, implementation, testing/release, continuous integration</p><p>â— Comfort with version control such as Git</p><p>â— Practical knowledge of shell scripting and at least one scripting language (Python, Ruby, Perl)</p><p>SALARY: Competitive, dependent on experience </p><p>START DATE: Asap</p><p>CONTRACT TYPE: Permanent</p><p>PLACE OF WORK: 5 rue Choron -- 75009 Paris (public transport : Metro line 12 -- Station Notre-Dame-de-Lorette, Metro line 7 -- Station Cadet)</p></div></div>]]>
+</description>
+</item>
+<item>
+<title>
+ClojureScript Frontend Developer with a good perspective on UX (M/F)
+</title>
+<link>
+https://jobs.braveclojure.com/jobs/17592186046662/clojurescript-frontend-developer-with-a-good-perspective-on-ux-m-f-machtfit-gmbh
+</link>
+<pubDate>
+Fri, 25 May 2018 11:11:55 -0400
+</pubDate>
+<description>
+<![CDATA[<div><h1>ClojureScript Frontend Developer with a good perspective on UX (M/F)</h1><div class="company-name">machtfit GmbH | Berlin</div><div>â‚¬50000 - â‚¬65000</div><div><a href="http://machtfit.de">http://machtfit.de</a></div><br /><div><h1>ClojureScript Frontend Developer with a</h1><p>good perspective on UX (M/F)</p><p>machtfit GmbH is a startup based in Berlin, that is developing a new standard for workplace health promotion. Through the machtfit platform, companies give their employees access to a unique marketplace of fitness and health related activities. machtfit handles all administrative efforts and makes workplace health promotion a piece of cake (or better yet, easy as peeling a banana). The platform went live in January 2012 and has been making the world a fitter place ever since.</p><p>We are currently searching an experienced frontend developer with a strong interest in good User Experience. If you want to support us in expanding our platform to a wider audience, get employees all over Germany and beyond fit and healthy we would be more than happy to receive your application.</p><p><strong>Your Responsibilities:</strong></p>
+<ul>
+  <li>Take an active role in defining and implementing superior user interfaces</li>
+  <li>Actively participate in user research activities</li>
+  <li>Take ownership in improving our current platform</li>
+</ul><p><strong>Technologies you'll be working with:</strong></p>
+<ul>
+  <li>ClojureScript (re-frame)</li>
+  <li>HTML+CSS</li>
+  <li>Python (Django)</li>
+</ul><p>**<br/>**</p><p><strong>How we develop software:</strong></p>
+<ul>
+  <li>Quality is key; take the time to understand code, don't just copy and paste stuff from the internet until it works</li>
+  <li>â€žDone" means â€žworking" + â€žmaintainable"</li>
+  <li>It doesn't hurt if you have a bit OCD :)</li>
+  <li>Give and receive constructive criticism</li>
+  <li>Be able to explain why you're doing what you're doing</li>
+  <li>If you see a problem, you're not only encouraged, but expected to voice it</li>
+  <li>Never stop optimizing your work environment so you can reap accumulating benefits</li>
+  <li>Be better than yourself last month</li>
+</ul><p>**<br/>**</p><p><strong>Bonus:</strong></p>
+<ul>
+  <li>You are actively contributing to Open Source Projects</li>
+  <li>You understand or speak German</li>
+</ul><p>**<br/>**</p><p><strong>What we can offer:</strong></p>
+<ul>
+  <li>A small and agile team, eager to conquer the world</li>
+  <li>A lot of room for your own ideas</li>
+  <li>A fitness- and health package -- of course</li>
+  <li>A competitive salary</li>
+  <li>Growing responsibility as we grow</li>
+</ul><p>**<br/>**</p><p><strong>When and where:</strong></p>
+<ul>
+  <li>ASAP</li>
+  <li>Full-time position</li>
+  <li>Centrally located in Berlin</li>
+</ul><p>Interested? Please send your CV, a few lines about yourself and your salary expectations to <a href="mailto:&#x6a;&#111;b&#115;&#x40;&#x6d;&#x61;c&#104;&#116;f&#105;&#x74;&#x2e;d&#x65;">&#x6a;&#111;b&#115;&#x40;&#x6d;&#x61;c&#104;&#116;f&#105;&#x74;&#x2e;d&#x65;</a></p></div></div>]]>
+</description>
+</item>
+<item>
+<title>
+Data Engineer
+</title>
+<link>
+https://jobs.braveclojure.com/jobs/17592186046654/data-engineer-tcgplayer-com
+</link>
+<pubDate>
+Mon, 14 May 2018 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[<div><h1>Data Engineer</h1><div class="company-name">TCGplayer.com | Atlanta, GA</div><div><a href="http://careers.tcgplayer.com/">http://careers.tcgplayer.com/</a></div><br /><div><h1><strong>Data Engineer</strong></h1><p>Want to shape how millions of trading card players and collectors buy and sell in a constantly evolving marketplace? Looking to make a big impact at a fast-growing company that values your innovation and creativity? </p><p>At TCGplayer, we build applications and technologies that connect thousands of hobby gaming businesses with customers across the globe. Our eCommerce and data management tools power sales through physical stores, websites, mobile apps and the TCGplayer Marketplace. </p><p>If you're ready to embark on this quest, work with us at TCGplayer---a community of explorers and innovators inspired to change the collectible gaming world.</p><h3>**As a Data Engineer on the Behavior Services team: **</h3>
+<ul>
+  <li>You will be designing and building robust and efficient data pipelines which support recommender systems, search engine indexing, and a variety of web services</li>
+  <li>You will leverage big data technologies to aggregate and analyze user behavior data</li>
+  <li>You will take a data-driven approach when designing and testing search and recommendation relevance models</li>
+  <li>You will monitor data platforms and web services for data integrity and system reliability</li>
+  <li>You will work with other teams to create microservice applications and API interfaces</li>
+  <li>You will be a subject matter expert and provide technical expertise on large scale distributed systems, data collection and storage, and information retrieval</li>
+  <li>You will see the results of your work powering the experience of TCGplayer's search and recommendation platform</li>
+  <li>You will strive to gain a deeper understanding of customer behaviors and sales trends in order to deliver actionable insights</li>
+</ul><h3><strong>This job may be right for you if:</strong></h3>
+<ul>
+  <li>You have a bachelor's degree in Computer Science, Mathematics, Statistics or a related field</li>
+  <li>You have 3+ years of software engineering experience</li>
+  <li>You have strong verbal and written communication skills</li>
+  <li>You have experience designing and implementing MapReduce or Spark jobs</li>
+  <li>You are experienced working with a variety of SQL and NoSQL data storage solutions</li>
+  <li>You enjoy both working as a team and as an individual to generate fresh ideas that fit business needs</li>
+  <li>You are passionate about your work making an impact on the product and understand how to turn discovery into value</li>
+  <li>You excell working through open ended problems</li>
+  <li>You are in a constant quest for knowledge and have passion for new technologies</li>
+</ul><h3><strong>You're extra awesome if you have:</strong></h3>
+<ul>
+  <li>Experience working in a Clojure ecosystem including Clojure related technologies like Datomic or Onyx</li>
+  <li>Experience with Elasticsearch or Solr</li>
+  <li>Experience with statistical analysis of behavioral data</li>
+  <li>Experience working with big data technologies like Hadoop, Hive, or Kafka</li>
+  <li>Experience working with AWS Technologies like EMR, DynamoDB, SQS, EC2, Kinesis, S3, Lambda, or CodeDeploy</li>
+  <li>Experience with container technologies like Docker, Kubernetes, or ECS</li>
+</ul><h3><strong>Why we're so great:</strong></h3>
+<ul>
+  <li>Competitive pay that's based directly on your awesome skills and experience</li>
+  <li><a href="http://careers.tcgplayer.com/perks-benefits/">Amazing perks</a>, like 100% health and dental coverage, UNLIMITED paid time off, free life insurance, 401(k) with matching and stock options</li>
+  <li>Embracing diversity is one of our <a href="http://careers.tcgplayer.com/core-values/">Core Values</a></li>
+</ul></div></div>]]>
+</description>
+</item>
+<item>
+<title>
+Clojurescript Developer
+</title>
+<link>
+https://jobs.braveclojure.com/jobs/17592186046479/clojurescript-developer-district0x
+</link>
+<pubDate>
+Mon, 07 May 2018 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[<div><h1>Clojurescript Developer</h1><div class="company-name">district0x | Anywhere</div><div>remote</div><div><em>A network of decentralized marketplaces. Built on Ethereum, Aragon, and IPFS.</em></div><div>$70000 - $140000</div><div><a href="https://district0x.io/">https://district0x.io/</a></div><br /><div><h3>district0x</h3><p>district0x is a global organization developing the next generation of decentralized applications (dApps). Built using Ethereum, Aragon, and IPFS, district0x is a network of marketplace dApps known as districts. Our mission is to decentralize the ownership structure of the world's marketplace by providing a platform for the creation, operation, and governance of peer-to-peer marketplaces. Using cutting edge technologies, we hope to bring more democratic and equitable businesses to the internet. </p><p>We launched our first product, a job board for freelancers, Ethlance.com, in January of 2017. After completing a fundraiser in July of 2017, we launched our second marketplace, Namebazaar.io, a peer-to-peer marketplace for the exchange domain names registered via the Ethereum Name Service. We're looking to expand our team in order to accelerate the development of new districts as well as several integrations, partnerships, and developer toolkits. </p><h4>Summary of Position:</h4><p>The district0x tech stack is driven in the backend by smart contracts developed in Solidity and deployed to the Ethereum blockchain, and in the front end by Clojurescript served via the Interplanetary File System. </p><p>As a Clojurescript Developer, your primary goal is to build front end interfaces for new districts and extend libraries to serve user-made districts. The secondary goal is to create new and secure services written in Solidity, and develop automated test cases for these services. Clojurescript Developers should work independently when building, but must collaborate with other developers in order to check each other's work and maintain the highest standards of code quality. A great Clojurescript Developer will go above and beyond by building new and unique user experiences, and automating any routines for the business at large.</p><h4>Key Responsibilities:</h4>
+<ul>
+  <li>Establish a clean and efficient development, test, and production environment.</li>
+  <li>Deliver best-in-class front-end solutions in Clojure.</li>
+  <li>Write and implement test suites covering the full range of code functionality.</li>
+  <li>Collaborate with the team to define architecture, quality standards, and best practices.</li>
+  <li>Diligently document all aspects of open-source contributions.</li>
+  <li>Create unique solutions to dApp-specific user experience challenges.</li>
+  <li>Build software that is FUN to use!</li>
+</ul><h4>The ideal candidate will have:</h4>
+<ul>
+  <li>3+ years of experience developing front-end web applications</li>
+  <li>Working knowledge of Clojure/Clojurescript</li>
+  <li>Experience with re-frame libraries</li>
+  <li>A passion for cryptocurrencies and other peer-to-peer technologies</li>
+  <li>Experience building smart contracts in Solidity</li>
+  <li>A deep understanding of how the Ethereum network and blockchains operate</li>
+</ul><h4>Additionally, you MUST be able to:</h4>
+<ul>
+  <li>Speak and write English fluently</li>
+  <li>Communicate proactively (we are 100% remote!)</li>
+  <li>Work independently towards deadlines</li>
+  <li>Accept a salary paid in Ether</li>
+</ul><p>At district0x, we value above all trust in our fellow contributors. Everyone sets their own hours and expectations, we work together towards unanimous goals. If you would thrive in this environment, send your resume to <a href="mailto:talent@district0x.io">talent@district0x.io</a>. For bonus points, find theis posting and apply via Ethlance.com. Come build a new future with us!</p></div></div>]]>
+</description>
+</item>
+<item>
+<title>
+Clojure Engineer
+</title>
+<link>
+https://jobs.braveclojure.com/jobs/17592186046622/clojure-engineer-red-pineapple-media
+</link>
+<pubDate>
+Sun, 29 Apr 2018 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[<div><h1>Clojure Engineer</h1><div class="company-name">Red Pineapple Media | Berlin</div><div><a href="https://www.redpineapplemedia.com">https://www.redpineapplemedia.com</a></div><br /><div><h1>Want to work with Clojure in Berlin?</h1><p>Red Pineapple Media distributes video advertising to more than 50 markets, and we've been expanding consistently since we started 6 years ago.</p><p>Our engineering team is built around a strong culture of teamwork. Code reviews, joint presentations and group decisions are standard for us. We'll often pick up the projector and do pair programming on the big wall of our office, or just sit together in one of our quiet rooms to prepare architectural changes or to give peer-to-peer feedback.</p><p>We care deeply about continual improvement, and have an RFC process in place to enable team members to influence our evolving standard and practices.</p><p>We're in an exciting phase right now as we're transitioning to programmatic buying and selling of advertisement space. The number of non-trivial challenges ahead is large, and the learning opportunities rich. From intelligently bidding for advertisement space in real time, to applying clustering and classification techniques to improve ad targeting, our future is full of opportunities for functional-programming goodness</p><h2>What attitude are we looking for?</h2>
+<ul>
+  <li>You have a strong sense of ownership and responsibility;</li>
+  <li>You're ready to work independently, clearly define problems, and objectively evaluate tradeoffs of potential solutions;</li>
+  <li>You're naturally motivated and proud of doing great work;</li>
+  <li>You believe that clear communication (including documentation and Git history) are a key part of good software engineering;</li>
+  <li>Your thought process is guided by rationalism and evidence rather than gut feeling or tradition;</li>
+  <li>You enjoy diversity (including differences of opinion), and have a humble attitude when engaging in discussions;</li>
+  <li>You sincerely welcome constructive criticism, and communicate with regard for the feelings of others.</li>
+</ul><h2>What do we value in people?</h2>
+<ul>
+  <li>Code needs to be read by humans, so you write code and documentation optimising for clarity;</li>
+  <li>You understand the importance of testing and automation, and avoiding repeating the same mistakes;</li>
+  <li>You get things done not only when starting exciting new projects but also when refactoring inelegant legacy code;</li>
+  <li>You're ready to work daily with Linux systems, AWS, Git, Docker and a steadily growing Microservice infrastructure;</li>
+  <li>You're ready to embrace the DevOps way of life, because an Engineer's work doesn't end after 'git push';</li>
+  <li>Your studies were in computer science, mathematics, engineering or a related area;</li>
+  <li>Alternatively: you have an awesome GitHub profile to show off :-)</li>
+  <li>You have worked with Clojure, ClojureScript, or other functional programming languages (and you're interested in learning Clojure!);</li>
+  <li>You have worked with distributed systems and have dealt with problems related to concurrency, performance and fault tolerance;</li>
+  <li>Curiosity is a constant in you. You don't settle for the same language or paradigm for too long and are eager to experiment and learn new things.</li>
+</ul><h2>What we offer</h2><p>Never a dull moment. Besides writing code, we also do our own DevOps, testing, retrospectives, planning, architecture, peer-to-peer evaluation, coffee and cooking</p><h3>Small teams, lots of freedom</h3><p>Every few months we organise in small teams around well-defined business objectives, and we have complete ownership over the approach and process used to achieve them. This includes: planning, work methodology, design, development and maintenance. We also decide when and how to tackle technical debt, and we are the sole owners of these decisions. Then, after some time, we reset the teams and choose new challenges to work on.</p><h3>A safe haven for functional programmers</h3><p>Even if your background is in non-functional programming, if you want to do functional programming then Red Pineapple Media is the place for you. You'll find as many challenges here as learning opportunities. You'll also have the chance to try new things and explore. We regularly hold research weeks where you can spend your time investigating and building anything you want.</p><h3>Friendly environment plus quiet rooms</h3><p>We regularly hold team breakfasts, barbecues, and ping-pong matches. We're super animal friendly: 4 dog owners, 2 vegans, 1 vegetarian and a cat-loving CEO. Naturally, dogs are welcome in the office. But we also optimise for focus and have quiet rooms where you can do power-naps, meditate or just work in isolation.</p><h3>Do what you want - and own it</h3><p>We believe that when given independence and room to grow, people tend to do great things. If you want to learn something new, fix that annoying Elasticsearch performance problem or focus on creating nicer looking brandings or reports, it's up to you. As long as our business objectives are achieved, you own and control your time and what to do with it.</p><h3>Compensation</h3><p>Depends on experience: we're currently looking for both intermediate and senior engineers.</p><h2>About Red Pineapple Media</h2><p>Red Pineapple Media is a passionate, dedicated team of content and marketing professionals connecting advertisers, publishers, and consumers all over the globe. We're driven by one simple goal: deliver campaigns that mutually benefit the advertiser, publisher, and the consumer. It's a strategy that has seen us successfully help over 300 advertisers increase their exposure and boost online media ROI in more than 56 markets -- and counting.</p><p>You can learn more about us at <a href="https://www.redpineapplemedia.com/">www.redpineapplemedia.com</a>.</p></div></div>]]>
+</description>
+</item>
+<item>
+<title>
+Platform Developer
+</title>
+<link>
+https://jobs.braveclojure.com/jobs/17592186046612/platform-developer-sap-concur
+</link>
+<pubDate>
+Fri, 13 Apr 2018 14:34:52 -0400
+</pubDate>
+<description>
+<![CDATA[<div><h1>Platform Developer</h1><div class="company-name">SAP Concur | Bellevue, WA</div><div><em>World's leading Travel and Expense Management company</em></div><div><a href="https://www.concur.com/">https://www.concur.com/</a></div><br /><div><h2>About the Company</h2><p>SAP Concur is one of the largest SaaS companies in the world. Based out of Bellevue, WA, Concur is the leader in integrated Travel &amp; Expense with over 30,000 enterprise customers &amp; 100 million end users. More than 75% of Fortune 500 companies use Concur as their cloud-based Travel &amp; Expense solution. </p><h2>About the Position</h2><p>Have you ever booked travel online? Have you wondered what goes on behind the scenes? Online booking is a non-trivial problem. Making it resilient and scalable is harder still. Join us and help build the next gen platform that will power Concur Travel for years to come. </p><p>In this role, you will be hands on designing, implementing, and shipping services that comprise this new platform. </p><h2>About the Team</h2><p>We are a diverse group of passionate hackers working from the Bellevue, WA office. </p><p>Our mission is to emerge foundational services upon which the Travel verticals (Air, Hotel, Car, Rail, etc) are built. </p><p>We are obsessed with performance, scalability, resiliency, maintainability, and simplicity. </p><p>We take full responsibility and ownership of our work - design, code, test, ship, measure, monitor. </p><p>Clojure is our poison of choice. We run in AWS. </p><h2>Prerequisites</h2><p>You speak Clojure (or any Lisp dialect) or are willing to learn it. </p><p>You have experience building web services. </p><p>You have shipped to an IaaS such as AWS.</p></div></div>]]>
+</description>
+</item>
+<item>
+<title>
+Front-end and Back-end/devops engineers (Employees #3 and #4)
+</title>
+<link>
+https://jobs.braveclojure.com/jobs/17592186046597/front-end-and-back-end-devops-engineers-employees-3-and-4-okletsplay
+</link>
+<pubDate>
+Wed, 04 Apr 2018 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[<div><h1>Front-end and Back-end/devops engineers (Employees #3 and #4)</h1><div class="company-name">OkLetsPlay | San Francisco Bay Area</div><div><em>We're building LetsBet, a patented social betting platform for eSports.</em></div><div>0 - 0</div><div><a href="https://okletsplay.com">https://okletsplay.com</a></div><br /><div><p>We're looking for employees #3 and #4: experienced and enthusiastic Clojure developers who will help pioneer our both mobile app and distributed back-end . We like to keep things clean, elegant, well-tested, and fully automated; we're interested in devs who feels the same.</p><p>OkLetsPlay is a young startup building LetsBet, a patented social betting platform that enables real money and cryptocurrency betting on skill-based video games.</p><h1>Front-end</h1><h2>Ideal qualifications</h2>
+<ul>
+  <li>Professional experience working with Clojure (or strong interest and side projects)</li>
+  <li>Significant experience with any major language (C++, Java, Python, etc)</li>
+  <li>Passion for functional programming</li>
+  <li>Comfortable with GNU/Linux or Mac OS</li>
+</ul><h2>Bonus points</h2>
+<ul>
+  <li>Open source projects we can see</li>
+  <li>Experience with distributed systems</li>
+  <li>Experience with React or React Native</li>
+</ul><h1>Back-end</h1><h2>Ideal qualifications:</h2>
+<ul>
+  <li>Professional experience working with Clojure (or strong interest and side projects)</li>
+  <li>Experience with zero downtime deployments and continuous integration</li>
+  <li>Strong grasp of SQL and NoSQL</li>
+  <li>Hands-on experience with cloud infrastructure technologies and systems monitoring</li>
+  <li>Drive to automate and test everything</li>
+  <li>Security-oriented mindset</li>
+  <li>Comfortable with GNU/Linux</li>
+</ul><h2>Bonus points:</h2>
+<ul>
+  <li>Open source projects we can see</li>
+  <li>Experience with Datomic</li>
+  <li>Experience with Firebase and Google Cloud Functions</li>
+</ul><h1>Our tech stack:</h1>
+<ul>
+  <li>Front-end: ClojureScript + React Native + Firebase</li>
+  <li>Back-end: Clojure + Heroku + Postgres + Firebase</li>
+</ul></div></div>]]>
+</description>
+</item>
+<item>
+<title>
+Senior Software Engineer
+</title>
+<link>
+https://jobs.braveclojure.com/jobs/17592186046585/senior-software-engineer-lumanu
+</link>
+<pubDate>
+Tue, 03 Apr 2018 17:02:14 -0400
+</pubDate>
+<description>
+<![CDATA[<div><h1>Senior Software Engineer</h1><div class="company-name">Lumanu | San Francisco Bay Area, Chicago</div><div>remote</div><div><em>Venture-backed startup allowing brands to amplify influencer content at scale.</em></div><div><a href="https://www.lumanu.com/">https://www.lumanu.com/</a></div><br /><div><p>Engineers at Lumanu are building a platform that process and analyzes millions of social posts to identify the most effective content, allowing brands to spend millions of dollars to promote the best content to the best consumer. The platform allows marketers without deep expertise in programmatic advertising to do all this within an intuitive and simple interface, ultimately helping brands optimize their media budget spend to drive the most impact.</p><p>Join us and you will:</p>
+<ul>
+  <li>Build key parts of our core software platform</li>
+  <li>Work in a powerful cutting edge technology stack</li>
+  <li>Help guide the direction of our product and company</li>
+  <li>Have a significant ownership stake in the company</li>
+  <li>Become an engineering leader as we grow our product team</li>
+</ul><p>What you'll need to be successful:</p>
+<ul>
+  <li>Able to learn new technologies and master them quickly</li>
+  <li>Able to work in small teams and build new software from scratch</li>
+  <li>Have an eye for product decisions and are able to suggest and implement improvements to the product and UX</li>
+  <li>Confidence to voice your opinion if you think there is a better way of doing something</li>
+  <li>Understand how to balance and make trade offs between business objectives and engineering goals</li>
+  <li>Experience with functional programming (e.g. lisp, scala, haskell, functional javascript)</li>
+  <li>Experience building web applications</li>
+</ul><p>Bonus:</p>
+<ul>
+  <li>Deep expertise in Clojure or ClojureScript</li>
+  <li>Active in Clojure or ClojureScript open source community</li>
+  <li>Expertise in one or more aspects of enterprise software architecture including caching, concurrency, database architecture, message queues</li>
+  <li>Expertise with deployment, monitoring, and testing of large scale applications involving multiple services</li>
+</ul><p>Compensation:</p><p>We offer a competitive salary and generous equity compensation.</p></div></div>]]>
+</description>
+</item>
+<item>
+<title>
+Technical Lead, Systems 
+</title>
+<link>
+https://jobs.braveclojure.com/jobs/17592186046575/technical-lead-systems-amperity
+</link>
+<pubDate>
+Wed, 28 Mar 2018 12:43:30 -0400
+</pubDate>
+<description>
+<![CDATA[<div><h1>Technical Lead, Systems </h1><div class="company-name">Amperity  | Seattle, WA or Remote </div><div>remote</div><div><em>Amperity is a venture-backed technology startup based out of Seattle, WA. </em></div><div><a href="http://amperity.com/careers">http://amperity.com/careers</a></div><br /><div><p>Interesting Problems</p>
+<ul>
+  <li>Ingesting and cleaning large amounts of data daily and blending it with real-time events</li>
+  <li>Automatically stitching data together across disparate systems by training machine-learning models to build a probabilistic knowledge graph</li>
+  <li>Taking research algorithms and productionizing them for high-scale usage</li>
+  <li>Allowing users to perform complex, real-time queries across an aggregated view of their data</li>
+  <li>Publishing query result data to a diverse set of systems for client usage</li>
+</ul><h2>About You</h2>
+<ul>
+  <li>You have experience using Clojure and/or Clojurescript or are functionally curious</li>
+  <li>You have experience building complex distributed systems in the JVM</li>
+  <li>You think about scalable architectures and great customer end to end experience</li>
+  <li>You improve things by 10x, not just 10%</li>
+  <li>You have worked in a DevOps environment, and drive sustainability such that DevOps is more Dev than Ops</li>
+  <li>You are open minded, inclusive, and motivated to make good decisions</li>
+</ul><h3>Technologies We Use</h3>
+<ul>
+  <li>Clojure and Clojurescript</li>
+  <li>Open Source tools, such as Accumulo, Spark, and Kafka</li>
+  <li>Cloud-first automation, including Apache Aurora and SaltStack</li>
+  <li>Neural nets, random forests, logistic regression, and probabilistic databases</li>
+  <li>Emacs AND vi!</li>
+  <li><a href="https://stackshare.io/amperity/amperity">And more</a></li>
+</ul><p>**<br/>**</p><p>Benefits</p><p>We offer all the benefits you'd expect from a "great place to work". Transportation subsidies, 100% healthcare coverage, and a comfortable snack-laden work environment. Beyond the basics, we provide an inclusive environment where you'll be challenged to find and unlock your full potential, surrounded by a team of world-class people driving for excellence.</p><p>We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, gender identity, age, marital status, veteran status, or disability status.</p></div></div>]]>
+</description>
+</item>
+<item>
+<title>
+(Junior) Software Engineer or Systems Architect for a data analysis and visualisation service
+</title>
+<link>
+https://jobs.braveclojure.com/jobs/17592186046558/-junior-software-engineer-or-systems-architect-for-a-data-analysis-and-visualisation-service-heidelberg-university-computing-centre
+</link>
+<pubDate>
+Tue, 13 Mar 2018 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[<div><h1>(Junior) Software Engineer or Systems Architect for a data analysis and visualisation service</h1><div class="company-name">Heidelberg University Computing Centre | Heidelberg, Germany</div><div><em>We support Heidelberg Universityâ€™s researchers with modern IT services.</em></div><div><a href="http://urz.uni-heidelberg.de/">http://urz.uni-heidelberg.de/</a></div><br /><div><h1>Our group</h1><p>The service unit Future IT â€“ Research &amp; Education (FIRE) at the Heidelberg University Computing Centre (URZ) is a dedicated young team at Germanyâ€™s oldest university. We map the boundaries of technology in order to enable scientists to deliver the world-class research our university is known for. Our organisation encourages us to learn and cultivate a sharing culture through teamwork, regular talks and open-source contributions. All team members are given the possibility to pursue their own research goals or attend field-specific conferences. Close collaboration and shared goals connect us with other computing centres and research labs in the federal state of Baden-WÃ¼rttemberg, Germany.</p><h1>Our project</h1><p>Research is more and more data-driven, with a rapidly growing amount of large sets of 3D data, which creates a demand for interactive remote visualisation. The service we create will allow scientists to efficiently analyse data. It is unique in that it is focused on a scalable container-first cloud platform, specifically targeted at the visualisation needs of researchers in Baden-WÃ¼rttemberg. We lower the entry barrier by focusing on usability and a user-friendly web frontend, provide building blocks for bringing custom user-specific tools onto our platform and encourage sharing within the community by promoting open source and open data.</p><h1>You will</h1>
+<ul>
+  <li>develop a web application to provide user-friendly control of compute jobs</li>
+  <li>improve the backend with regard to scheduling algorithms, resource management and hardware virtualisation</li>
+  <li>support and train users, especially with regard to the usage and creation of container-based visualisation applications</li>
+  <li>automate functional / integration tests of the container-based remote visualisation applications and compliance to security regulations</li>
+  <li>assist in the maintenance of high-performance computing clusters, storage systems for scientific data, and the data analysis and visualisation platform itself</li>
+  <li>contribute to scientific projects in the area of data-intensive computing (e.g. design and realisation of test setups)</li>
+</ul><h1>You are</h1>
+<ul>
+  <li>eager to work with users to develop tailor-made and user-friendly solutions</li>
+  <li>curious to get to know new techniques and technologies</li>
+  <li>at home on the Linux command line and in the Linux ecosystem in general</li>
+  <li>experienced in at least two programming paradigms (e.g. imperative and functional)</li>
+  <li>familiar with agile methods, hammock-driven development (HDD) and continuous integration and deployment (CI/CD)</li>
+  <li>active in the free/libre open-source community through bug reports, documentation or source code contributions</li>
+</ul><h1>You might already have some experience with</h1>
+<ul>
+  <li>operating-system-level virtualisation (e.g. Docker or CRI-O) and container orchestration (e.g. Kubernetes and Helm)</li>
+  <li>platform virtualisation (e.g. KVM/QEMU) and cloud management (e.g. OpenStack)</li>
+  <li>Clojure/ClojureScript, Reagent (React), re-frame (SPA), Pedestal and Lacinia (GraphQL) and related technologies</li>
+  <li>security hardening of infrastructure and containers</li>
+</ul><p>This full-time position is to be filled as soon as possible. The employment is limited to a duration of three years. You will be paid according to German civil-service TV-L regulations. Part-time employment can be negotiated.</p><p>Should you send in a physical application, please understand that none of the application documents submitted will be returned.</p><p>Heidelberg University aims to increase the number of women in those areas in which women are underrepresented. Thus, we specifically ask qualified women to apply for this position.</p><p>Preference will be given to equally qualified applicants with severe disabilities.</p></div></div>]]>
+</description>
+</item>
+</channel>
+</rss>
