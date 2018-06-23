@@ -15,11 +15,13 @@ module Horsefield
       base.extend(ClassMethods)
     end
 
-    def initialize(html_xml_or_url)
+    def initialize(html_xml_or_url, remove_namespaces: false)
       html_xml_or_url = open(html_xml_or_url).read if html_xml_or_url =~ /\A#{URI::regexp}\Z/
 
       @doc = if html_xml_or_url =~ /\A<\?xml/
-               Nokogiri::XML(html_xml_or_url)
+               doc = Nokogiri::XML(html_xml_or_url)
+               doc = doc.remove_namespaces! if remove_namespaces
+               doc
              else
                Nokogiri::HTML(html_xml_or_url)
              end
