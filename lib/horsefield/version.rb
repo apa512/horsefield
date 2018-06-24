@@ -1,3 +1,3 @@
 module Horsefield
-  VERSION = "0.5.68"
+  VERSION = "0.5.69"
 end
