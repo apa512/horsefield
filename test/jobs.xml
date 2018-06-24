@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="html" ><![CDATA[Functional Jobs: All Jobs]]></title>
+<link href="https://functionaljobs.com/" ></link>
+<id>urn:uuid:50e619eb-15a8-f501-e0ba-bf6b6c4772f4</id>
+<updated>2018-06-23T02:46:39-04:00</updated>
+<author><name>FunctionalJobs.com</name>
+</author>
+<entry>
+<title type="html" ><![CDATA[Senior Software Engineer at Habito (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9095-senior-software-engineer-at-habito" ></link>
+<id>urn:uuid:7e6c4532-0715-8661-9b48-f275d70b5bb9</id>
+<updated>2018-06-18T08:34:25-04:00</updated>
+<summary type="html" ><![CDATA[<p>Launched in 2016, Habito is transforming the mortgage industry through innovation and cutting-edge technology. We are the UK&#039;s free online mortgage broker backed by Atomico, Ribbit Capital and Mosaic Ventures, with angel investors including Transferwise CEO Taavet Hinrikus, Funding Circle&rsquo;s founder Samir Desai and Yuri Milner, influential tech investor.</p>
+
+<p>We are building a great brand synonymous with great customer service, ease and transparency. Simple, fast and honest, coupled with no fees, and no misinformation.</p>
+
+<p>Our team is super-smart, ambitious, collaborative and friendly. We work hard, play hard and learn fast. This is a great opportunity to help steer, shape and mould our business.</p>
+
+<p><strong>Are you excited? Come and make your home at Habito!</strong></p>
+
+<p><strong>The Role</strong></p>
+
+<p>We are looking for a full-time senior software engineer to join our team of full-stack engineers. Our core development values are strong, static typing and correctness, rigorous automation (in both testing and infrastructure) and everyone having a say.</p>
+
+<p>The stack: On the back end we have an HTTP API written in Haskell (and built using stack) with PostgreSQL serving as the persistence layer. All of our data is event sourced thanks to PostgreSQL&#039;s great support for relational and blob data (e.g. jsonb) and some in-house libraries for handling ES/CQRS in a type-safe (or what we believe to be, as far as possible) manner. We lean heavily on GHC and its extensions and are also using some of the bigger power-to-weight-ratio players like lens and conduit.</p>
+
+<p>The front end is written in PureScript on top of React and Redux (the bindings to which are our own but are both quite thin and based on the design of purescript-react and later pux).</p>
+
+<p>Infrastructure wise we are sitting atop AWS and using Docker to manage containment. Jenkins manages continuous integration and deployment using a combination of AWS&#039; Java SDK and some management code written in Scala</p>
+
+<p>While we&#039;re a technology company first and foremost, initially we&#039;re trying to make the UK mortgage brokering market a better place. This means building and maintaining our website, but it also involves a slurry of behind-the-scenes work integrating lenders, insurers, conveyancers and all the other players in the space as we seek to introduce robust automation into what is currently so many manual processes. Slack bots, job queues, working around the fact that some actors don&#039;t have APIs -- you&#039;ll get to handle it all!</p>
+
+<ul>
+<li>Work on our back-end software, written in Haskell and our front-end web 
+applications, written in PureScript, HTML and CSS.</li>
+<li>Help maintain and extend our infrastructure, hosted in AWS using technologies such as Docker and Kubernetes.</li>
+<li>Use tools such as QuickCheck, Tasty and HUnit to produce reliable, well-tested software.</li>
+<li>Work with our product and design teams to produce customer-centric experiences that excite and delight.</li>
+</ul>
+
+<p><strong>The Candidate</strong></p>
+
+<ul>
+<li>A passionate developer who cares about clean code and code quality; a full-stack polyglot</li>
+<li>An experienced engineer familiar with automated testing and deployment</li>
+<li>Experienced with functional programming and domain-driven design or simply interested and capable of learning on the job</li>
+<li>Someone who cares about UX and UI; you have a fundamental aversion to ugliness in product</li>
+</ul>
+
+<p><strong>And Finally......</strong></p>
+
+<ul>
+<li>Competitive salary &amp; share options</li>
+<li>Career development, coaching &amp; training</li>
+<li>Free catered lunches, snacks &amp; team bonding</li>
+<li>Bupa Healthcare &amp; Life Assurance</li>
+<li>Contributory pension scheme</li>
+<li>Bi-weekly massages with Urban Massage</li>
+<li>Unlimited Holiday</li>
+<li>Cycle to Work Scheme</li>
+<li>Childcare Vouchers</li>
+</ul>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9095-senior-software-engineer-at-habito">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Senior Scala Developer at Fauna (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9094-senior-scala-developer-at-fauna" ></link>
+<id>urn:uuid:1ff470ec-6c1d-2508-fb4e-2ed0983f54e9</id>
+<updated>2018-06-03T09:53:14-04:00</updated>
+<summary type="html" ><![CDATA[<p>Come join the engineering team at Fauna, where you&rsquo;ll be working directly on our core product, FaunaDB, which is implemented in Scala. You&#039;ll help expand FaunaDB&#039;s feature surface area, ease of use, performance, and enterprise-readiness while keeping its promises of ACID-compliance and cloud-native fault tolerance.</p>
+
+<p>Building an enterprise distributed database requires disciplined engineering. Our software is four years in the making and we&rsquo;ve taken the time to build things right. You&rsquo;ll be working with a team of engineers who have been tech leads for service teams, built other distributed systems, contributed to popular open source, and worked at engineering leaders like Amazon, Twitter, and Oracle.</p>
+
+<p>You&rsquo;ll be familiar with the following:</p>
+
+<ul>
+<li>Scala and SBT</li>
+<li>Asynchronous programming</li>
+<li>Fault-tolerant network services</li>
+<li>Linux operations</li>
+</ul>
+
+<p>Fauna is a well-funded Series A startup building the first mission critical NoSQL database. We&#039;re backed by Point 72 Ventures, GV (formerly Google Ventures), CRV, Data Collective, Quest Venture Partners, and many more leading Silicon Valley firms. We are remote-first (but not remote-only), and based in San Francisco and Boston.</p>
+
+<p>Benefits include fully paid medical, vision, and dental insurance, as well as company-sponsored life insurance.</p>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9094-senior-scala-developer-at-fauna">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Staff Frontend Engineer at CircleCI (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9093-staff-frontend-engineer-at-circleci" ></link>
+<id>urn:uuid:0d686ea6-a591-ecd1-f424-d0c75fe0901b</id>
+<updated>2018-05-30T12:53:53-04:00</updated>
+<summary type="html" ><![CDATA[<p>CircleCI is looking for an experienced front end software engineer to help us design and build a rich web experience. You will work closely with Product and Design to help shape industry standards for how developers both visualize and interact with their continuous integration and deployment workflows.</p>
+
+<p>At CircleCI you will be working with a team who values trust, respect, and diversity. We are a globally distributed team working towards the common goal of being the standard bearer for continuous integration and deployment software. We are remote friendly, and are looking for people who are passionate about helping shape software engineer best practices for the industry as a whole.</p>
+
+<p>To thrive in this role you are someone who works well in teams, and enjoys collaborating. Furthermore you are opinionated about UI, UX, as well as web development technologies and best practices. You enjoy working with Product and Design to find the best solution to the problem at hand, and balance technical tradeoffs with delivering customer value quickly and iteratively.</p>
+
+<p>About CircleCI
+CircleCI is the best platform for software teams looking to rapidly build quality projects, at scale. Our intelligent continuous integration and delivery tools are simple yet powerful. Our aim is to provide the wisdom of a connected development ecosystem to every team member making technology decisions.</p>
+
+<p>We run 7M+ builds a month on our platform for companies like Spotify, Kickstarter, Sony, and Coinbase. Over 25,000 organizations and 300,000 developers actively build, test, and deploy on CircleCI.  We&rsquo;ve raised $59.5M in venture capital from Industry Ventures, Top Tier Capital, Scale Venture Partners, DFJ, Harrison Metal Capital, and Baseline Ventures. </p>
+
+<p>About this role:
+ - Work closely with Product and Design to brainstorm the best way to visually represent our customer&rsquo;s code to software process
+ - Drive the direction of the UI and UX of our web app, as well as the technical direction of our front end architecture
+ - Work on cross-functional, feature-driven engineering teams
+ - Work in JavaScript and React on a daily basis</p>
+
+<p>You Have:
+ - 3+ years of single page application development experience
+ - 6+ years of front end engineering experience
+ - Articulate UI and UX opinions
+ - Extensive knowledge of web technologies
+ - Experience with and appreciation for the functional programming paradigm
+ - A deep appreciation for and ability to support your development with appropriate testing</p>
+
+<p>You Enjoy:
+ - Working in a highly collaborative environment
+ - Supporting an environment that values trust, respect, and diversity
+ - Exploring different methods for efficiently delivering code and customer value
+ - Delivering value to customers
+ - Sharing your expertise and encouraging best practices</p>
+
+<p>CircleCI is a Bay Area Best Places to Work 2018 award winner. Founded in 2011 and headquartered in beautiful downtown San Francisco with a global remote workforce, CircleCI is venture backed by Scale Venture Partners, DFJ, Baseline Ventures and Harrison Metal Capital.</p>
+
+<p>We care deeply about diversity and inclusivity. We&rsquo;re hiring at all experience levels, and seek talented teammates from a wide variety of backgrounds and experiences who are equally committed to cultivating a work environment of respect and kindness. We carefully consider every applicant that takes the time to apply.</p>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9093-staff-frontend-engineer-at-circleci">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Senior Frontend Engineer at CircleCI (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9092-senior-frontend-engineer-at-circleci" ></link>
+<id>urn:uuid:70f33836-d926-6e28-e79f-841da83c4429</id>
+<updated>2018-05-30T12:53:51-04:00</updated>
+<summary type="html" ><![CDATA[<p>CircleCI is looking for an experienced front end software engineer to help us design and build a rich web experience. You will work closely with Product and Design to help shape industry standards for how developers both visualize and interact with their continuous integration and deployment workflows.</p>
+
+<p>At CircleCI you will be working with a team who values trust, respect, and diversity. We are a globally distributed team working towards the common goal of being the standard bearer for continuous integration and deployment software. We are remote friendly, and are looking for people who are passionate about helping shape software engineer best practices for the industry as a whole.</p>
+
+<p>To thrive in this role you are someone who works well in teams, and enjoys collaborating. Furthermore you are opinionated about UI, UX, as well as web development technologies and best practices. You enjoy working with Product and Design to find the best solution to the problem at hand, and balance technical tradeoffs with delivering customer value quickly and iteratively.</p>
+
+<p>About CircleCI
+CircleCI is the best platform for software teams looking to rapidly build quality projects, at scale. Our intelligent continuous integration and delivery tools are simple yet powerful. Our aim is to provide the wisdom of a connected development ecosystem to every team member making technology decisions.</p>
+
+<p>We run 7M+ builds a month on our platform for companies like Spotify, Kickstarter, Sony, and Coinbase. Over 25,000 organizations and 300,000 developers actively build, test, and deploy on CircleCI.  We&rsquo;ve raised $59.5M in venture capital from Industry Ventures, Top Tier Capital, Scale Venture Partners, DFJ, Harrison Metal Capital, and Baseline Ventures. </p>
+
+<p>About this role:
+ - Work closely with Product and Design to brainstorm the best way to visually represent our customer&rsquo;s code to software process
+ - Drive the direction of the UI and UX of our web app, as well as the technical direction of our frontend architecture
+ - Work on cross functional, feature driven engineering teams
+ - Work in JavaScript and React on a daily basis</p>
+
+<p>You Have:
+ - 3+ years of single page application experience
+ - Articulate UI and UX opinions
+ - Extensive knowledge of web technologies
+ - A deep appreciation for and abilities to support your development with appropriate testing
+ - Experience with functional programming a plus</p>
+
+<p>You Enjoy:
+ - Working in a highly collaborative environment
+ - Supporting an environment that values trust, respect, and diversity
+ - Exploring different methods for efficiently delivering code and customer value
+ - Delivering value to customers
+ - Sharing your expertise and encouraging best practices</p>
+
+<p>CircleCI is a Bay Area Best Places to Work 2016 award winner. Founded in 2011 and headquartered in beautiful downtown San Francisco with a global remote workforce, CircleCI is venture backed by Scale Venture Partners, DFJ, Baseline Ventures and Harrison Metal Capital.</p>
+
+<p>We care deeply about diversity and inclusivity. We&rsquo;re hiring at all experience levels, and seek talented teammates from a wide variety of backgrounds and experiences who are equally committed to cultivating a work environment of respect and kindness. We carefully consider every applicant that takes the time to apply.</p>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9092-senior-frontend-engineer-at-circleci">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Expert-Grade Software Engineer for Enterprise Software on Distributed Ledger Technology (Blockchain) at MCZ Moschin Executive AG (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9091-expert-grade-software-engineer-for-enterprise-software-on-distributed-ledger-technology-blockchain-at-mcz-moschin-executive-ag" ></link>
+<id>urn:uuid:7b6a92f1-5bc6-bfaf-443e-917e6ca4f199</id>
+<updated>2018-05-28T17:34:51-04:00</updated>
+<summary type="html" ><![CDATA[<p>MCZ Moschin Executive AG is a headhunting agency located in Zurich-City with over 30 years of experience.  </p>
+
+<p>At the moment we are looking for a Software Engineer for one of our clients. </p>
+
+<p><strong>The Company Profile</strong></p>
+
+<ul>
+<li>They are a rapidly growing Swiss
+startup developing fundamentally new
+kind of enterprise ecosystem software
+for global players in the digital age
+based on unique breakthrough
+Distributed Ledger Technology (DLT).</li>
+<li>The company culture is &ldquo;with
+passion&rdquo;: a young, innovative and
+transparent leadership and people
+culture. </li>
+<li>Their success is based on a
+radically process-oriented
+Distributed Ledger Technology stack,
+a laser focused vision and strategy,
+a truly international team of
+outstanding collaborating business
+and technology experts, an excellent
+cross-industry client base of global
+players as well as a strong external
+partner network of consulting
+companies and integrators. </li>
+<li>Their headquarters is in Switzerland with a
+subsidiary in Germany. Further
+openings across Europe to follow
+clients and talent are planned.</li>
+</ul>
+
+<p><strong>The Vision</strong></p>
+
+<p>Today, globally and cross-industry business processes and whole business models are under disruption by a combination of new mega trend technologies such as AI, DLT and IoT leading to an end-to-end digitalization of ecosystems with new market structures, products and customer experiences.</p>
+
+<p>Completely new software architectures based on formal protocols (often called Smart Contracts) and DLT (often called Blockchain) platforms will unleash the second digitalization wave allowing the agile, fast, secure and low cost implementation of new processes, applications and automations across enterprises and ecosystems.</p>
+
+<p>At the heart of the new architectures are formal protocols (such as contracts, processes, regulations or policies) defining agreed processes and obligations including involved objects, mandatory or possible actions. The execution of these protocols is transparent/analyzable for all parties involved and synchronized on a distributed ledger.</p>
+
+<p><strong>Your Opportunity</strong></p>
+
+<p>We are looking for exceptional personalities with large-scale distributed software development skills in enterprise environments to take mission-critical leading roles within the software engineering team to further expand our business.</p>
+
+<ul>
+<li>Rare opportunity to join a rapidly
+growing cutting-edge Swiss startup
+delivering real-world enterprise
+software to international tier-1
+industry clients with a unique
+revolutionizing technology.</li>
+<li>Take a key technical lead role to
+shape the software and have a
+critical and direct impact on the
+company success.</li>
+<li>Deliver real-world enterprise
+software on distributed ledger
+technology for ecosystems in the
+digital age. Change the way whole
+industries do business.</li>
+<li>Combine nascent technologies such as
+distributed ledger technology
+(blockchain), formal multiparty
+protocols (smart contracts),
+functional programming and domain
+specific languages, new development
+and testing tools (such as formal
+verification), high-performance
+computing, IoT and workflow
+automation.</li>
+<li>Build cross-silo software for
+enterprises and whole ecosystems by
+formalizing contracts, queries and
+individual workflows that seamlessly
+automate collaboration between
+people, companies and machines.</li>
+<li>Work with top-tier clients across
+different industries e.g. in the
+energy, automotive, chemical and
+health care industries.</li>
+<li>Work in an international team of
+highly collaborative exceptional
+engineers.</li>
+</ul>
+
+<p><strong>Your Responsibilities</strong></p>
+
+<ul>
+<li>Design and develop high quality
+software efficiently and rapidly,
+using functional and non-functional
+languages, within an agile
+development environment.</li>
+<li>Refine the specification, make
+critical design decisions and concept
+software architecture.</li>
+<li>Develop enterprise scale distributed
+ledger technology that will be
+deployed at global players.</li>
+<li>Technological responsibility for the
+delivery of software for customer
+projects product development and
+research projects.</li>
+<li>Depending on your preferences and
+focus bring in your exceptional
+technical expertise, people
+management and/or product delivery
+skills.</li>
+</ul>
+
+<p><strong>Your Qualifications</strong></p>
+
+<ul>
+<li>10+ years experience as a software
+engineer, working in large-scale
+software development environments.</li>
+<li>Proven back-end work experience with
+functional and non-functional
+programming languages including but
+not limited to: Kotlin, Scala, and
+Haskell, Java, C/C++, C#, Objective
+C, Python, JavaScript, or Go.</li>
+<li>Basic knowledge of Web protocols,
+including JavaScript, HTML, CSS and
+HTTP. Knowledge of front-end
+development including Typescript,
+React, Angular or similar.</li>
+<li>Recently worked in an Agile/Scrum
+environment.</li>
+<li>Affinity with formal verification
+methods and technology (e.g. Coq) is
+a plus.</li>
+<li>Knowledge of cloud services and
+containers.</li>
+<li>Experience with distributed and
+concurrent systems, scalable and
+high-availability computing.</li>
+<li>Deep understanding of secure coding,
+testing and releasing. Strong
+enterprise grade delivery
+orientation.</li>
+<li>Strong communication skills.</li>
+<li>BS, MS or PhD in computer science.</li>
+</ul>
+
+<p><strong>The Offer for you</strong></p>
+
+<ul>
+<li>Work as part of our young, energy
+sparkling, innovative core team at
+our headquarters in Switzerland.</li>
+<li>Work in Switzerland for at least one
+year required. Subsidiary in Germany
+and further subsidiaries in Europe
+planned so that remote work or moving
+to another office could be possible
+in the future.</li>
+<li>Work in picturesque crypto-valley
+with lowest income taxes in Europe.</li>
+<li>Swiss citizen or holder of a valid
+Swiss work permit type B or C, or
+EU/EFTA citizen required.</li>
+<li>Highly competitive compensation
+package plus participation shares in
+the company.</li>
+<li>Excellent personal and career growth
+potential.</li>
+</ul>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9091-expert-grade-software-engineer-for-enterprise-software-on-distributed-ledger-technology-blockchain-at-mcz-moschin-executive-ag">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Distributed Systems Engineer at Fauna (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9089-distributed-systems-engineer-at-fauna" ></link>
+<id>urn:uuid:faef4791-48ab-e31f-afef-c19b48d9a5f3</id>
+<updated>2018-05-24T20:07:40-04:00</updated>
+<summary type="html" ><![CDATA[<p>Come join the engineering team at Fauna, where you&rsquo;ll be working directly on our core product, FaunaDB. You&#039;ll help expand FaunaDB&#039;s feature surface area, ease of use, performance, and enterprise-readiness while keeping its promises of ACID-compliance and&nbsp;cloud-native fault tolerance.</p>
+
+<p>The creation of an enterprise and cloud-ready distributed database requires disciplined engineering. Our software is four years in the making and we&rsquo;ve taken the time to build things right. You&rsquo;ll be working with a team of engineers who have been tech leads for service teams, built other distributed systems, contributed to popular open source, and worked at engineering leaders like Amazon, Twitter, and Oracle.</p>
+
+<p>You&rsquo;ll be well-versed in the following:</p>
+
+<ul>
+<li>Scala (or another functional programming language)</li>
+<li>Asynchronous programming</li>
+<li>Fault-tolerant network services</li>
+<li>Performance analysis with Linux or the JVM</li>
+<li>Familiarity with on-disk storage engines (LSM trees, B+ trees, etc.) is a plus</li>
+<li>Familiarity with distributed consensus protocols (RAFT, Paxos, Viewstamped Replication) is a plus</li>
+</ul>
+
+<p>Fauna is a well-funded Series A startup building the first mission critical NoSQL database. We&#039;re backed by Point 72 Ventures, GV (formerly Google Ventures), CRV, Data Collective, Quest Venture Partners, and many more leading Silicon Valley firms. We are a remote-first and based in San Francisco and Boston.</p>
+
+<p>Benefits include fully paid medical, vision, and dental insurance, as well as company-sponsored life insurance.&nbsp;</p>
+
+<p>Fauna is proud to be an equal opportunity employer. Our company is committed to fair hiring practices, and building a diverse environment for our employees. You will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, disability, age, or veteran status.</p>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9089-distributed-systems-engineer-at-fauna">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Software Engineer at LetsGetChecked (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9088-software-engineer-at-letsgetchecked" ></link>
+<id>urn:uuid:e011eb13-0b30-37f0-989a-16150c173479</id>
+<updated>2018-05-23T12:19:28-04:00</updated>
+<summary type="html" ><![CDATA[<p><strong>LetsGetChecked</strong> is becoming a global leader in personal health testing. Our medical technology platform provides connectivity between customers and our global network of laboratories. We are enabling customers to order, manage and track their own clinical outcomes through a personal online account.</p>
+
+<p>Due to continued success and growth, we have the need to expand our Technical Team. You will join us in building and maintaining a large scale, distributed system spanning across multiple geographic locations. Our platform resides fully in AWS, operates in dozens of markets and focuses on ease of use for our customers along with integrity &amp; security for the data they trust us with.</p>
+
+<p>To deliver these results, the team utilizes cutting-edge technology including the latest .NET stacks, automated tests, functional programming, infrastructure as code, continuous integration and automated deployments. If you are looking for more exposure to this tech, we can provide this within a very dedicated and expanding team environment, where you can help shape the future with us.</p>
+
+<p>We are experiencing an exciting expansion phase and are adding to our existing team, having recently closed off a series A funding round.</p>
+
+<p><strong>What you&#039;ll do:</strong></p>
+
+<ul>
+<li>Write clean, maintainable code using best industry standards in .NET and Web languages</li>
+<li>Be flexible to changing requirements and priorities, while managing own task list and time</li>
+<li>Development and implementation of mission critical services</li>
+<li>Write automated tests to validate your own code</li>
+<li>Integrate systems, by building APIs as well as connecting to other services</li>
+<li>Write server-side code for web-based applications and develop prototypes quickly</li>
+<li>Be a team player - take ownership of code and its operations</li>
+<li>Help the team to continuously improve their practices and technology</li>
+</ul>
+
+<p><strong>What we expect from you:</strong></p>
+
+<ul>
+<li>Functional Programming mindset</li>
+<li>SQL</li>
+<li>Experience developing and integrating to API&rsquo;s</li>
+<li>Distributed Systems</li>
+<li>Writing automated tests for your own code</li>
+<li>Strong written and oral English communication skills</li>
+<li>OOP Design and Patterns</li>
+<li>Passion for best quality practice and continuous professional development</li>
+<li>Permission to work in Ireland</li>
+</ul>
+
+<p><strong>What will help you in this job:</strong></p>
+
+<ul>
+<li>F#</li>
+<li>Microservices</li>
+<li>Domain Driven Design</li>
+<li>Knowledge of asynchronous programming in .NET (async / await)</li>
+<li>RESTful architectures</li>
+<li>AngularJS</li>
+<li>Working with Continuous Integration and Continuous Delivery</li>
+<li>Working knowledge of ASP.NET MVC</li>
+<li>Exposure to cloud (especially AWS)</li>
+<li>DevOps</li>
+<li>NoSQL</li>
+<li>Infosec</li>
+<li>Git</li>
+</ul>
+
+<p><strong>What we offer:</strong></p>
+
+<ul>
+<li>Training and support to improve as professionals</li>
+<li>Lovely office in Dun Laoghaire close to People&#039;s Park, the Pier, DART stations, etc.</li>
+<li>Free testing kits monthly to monitor your own health</li>
+<li>International project setting in a dynamic market</li>
+<li>Lots of interesting technology</li>
+<li>Taxsaver DART scheme</li>
+<li>Competitive compensation including share option scheme</li>
+</ul>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9088-software-engineer-at-letsgetchecked">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Frontend Engineer at Trivium Real Estate (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9087-frontend-engineer-at-trivium-real-estate" ></link>
+<id>urn:uuid:7c97d921-c61f-ae69-de43-b713e5b55494</id>
+<updated>2018-05-21T12:42:37-04:00</updated>
+<summary type="html" ><![CDATA[<p>TriviumRE is an investor-backed, data-mining startup for the commercial real estate industry; we&#039;re making data entry jobs less painful.  Our MVP is moments away from launching and customers are queuing to take it for a spin. As such, we&#039;re growing our team to tackle the challenges ahead.</p>
+
+<p><strong>What about the team?</strong> We have a high emphasis on continual learning. If you&#039;re not learning something new on the job its time for a new one. Our tech stack reflects this; Haskell and Elm are the main languages. We don&#039;t mind if its your first exposure to either. We&#039;re not afraid of experimenting or making mistakes. The most important quality of anyone on our team is their ability to learn and teach.</p>
+
+<p>Since we&#039;re still young, working with us means you have a lot of influence in shaping the culture and direction of the company.  You&#039;ll also a chance to grow your skill set faster than somewhere else. </p>
+
+<p><strong>The product</strong> We&#039;re building a data mining tool that can explicitly learn a relational data model based on sample inputs.  It&#039;s radically improves data entry and data cleaning for financial analysts.  Customers have loved our demos and we&#039;re understandably coy in our public descriptions.</p>
+
+<h1>Front-End Engineer</h1>
+
+<p>This is for someone who:</p>
+
+<ul>
+<li>is comfortable in functional programming, especially <strong>Elm</strong>; and</li>
+<li>is experienced shipping front-end software to production; and</li>
+<li>has empathy for users and loves friendly UX; and</li>
+<li>has an eagerness to learn and willingness to share knowledge.</li>
+</ul>
+
+<h2>Benefits</h2>
+
+<ul>
+<li>&pound;50-70k DOE. + Equity.</li>
+<li>Highly intelligent, supportive team.</li>
+<li>20+ holidays per year.  </li>
+<li>Support for conferences &amp; other tech related education. </li>
+</ul>
+
+<h2>A Typical Day</h2>
+
+<ul>
+<li><p>Start off writing a feature that requires elm-ports. These can be tricky, so you
+pair with another developer who has shipped such code before.</p></li>
+<li><p>After lunch you&#039;re requested to review a Pull Request that fixes a bug you accidentally
+introduced a couple weeks back. There&#039;s no blame, instead some discussion about 
+how our tests and review process could have caught this earlier.</p></li>
+<li><p>The afternoon is spent with the Product guys around a whiteboard. You&#039;re helping
+them sketch out a realistic wire-frame for a feature we plan to deliver in a couple
+of weeks.</p></li>
+</ul>
+
+<h1>Some Tech we like:</h1>
+
+<p>We&#039;re more interested in a willingness and ability to learn than what you currently know. But in case you&#039;re interested in the stack we&#039;re using:</p>
+
+<ul>
+<li>Haskell</li>
+<li>Elm</li>
+<li>PostgreSQL</li>
+<li>Javascript</li>
+<li>Python / scikit-learn </li>
+<li>Tensorflow / Deep learning</li>
+<li>AWS</li>
+<li>CircleCI</li>
+<li>Automated Testing</li>
+</ul>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9087-frontend-engineer-at-trivium-real-estate">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Software Developer (Flowerpilot) (m/f) at LambdaWerk GmbH (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9086-software-developer-flowerpilot-m-f-at-lambdawerk-gmbh" ></link>
+<id>urn:uuid:03aad8b8-1cb0-751a-bd19-1ac2ea13d31a</id>
+<updated>2018-05-17T03:18:49-04:00</updated>
+<summary type="html" ><![CDATA[<p>Join us as a software developer to grow a new product in the agricultural analytics field. Our client is a startup in the United States who is working on a plant identification system based on Ion Mobility Spectroscopy (IMS). We&#039;re looking for a lead programmer to work on scientific measurement workflow support systems, mobile applications and embedded integration system integrat</p>
+
+<p><strong>What you&#039;ll do:</strong></p>
+
+<p>Develop lab workflow support and demonstrator applications</p>
+
+<p>Evaluate technology and implement prototypes</p>
+
+<p>Integrate systems with existing deployment infrastructure</p>
+
+<p>Support data science development for measurement classification</p>
+
+<p><strong>What we expect from you:</strong></p>
+
+<p>A desire to program</p>
+
+<p>Professional experience with functional programming</p>
+
+<p>Be comfortable with multiple programming languages</p>
+
+<p>Experience with Clojure and the JVM is a plus</p>
+
+<p>Willingness to embrace XML</p>
+
+<p>Knowledge of web technology and internet protocols</p>
+
+<p>Experience with GIT, Linux shell</p>
+
+<p>Ability to communicate efficiently with your colleagues in English (written and spoken)</p>
+
+<p><strong>What we offer:</strong></p>
+
+<p>A nice office in Berlin</p>
+
+<p>International project setting in a dynamic market</p>
+
+<p>A small, focused and experienced team</p>
+
+<p>Lots of interesting technology to learn and use</p>
+
+<p>Training seminars and conference visits</p>
+
+<p>A competitive salary</p>
+
+<p><strong>About LambdaWerk</strong></p>
+
+<p>We are a software development shop specializing in the implementation of data processing systems for healthcare and insurance companies. We are owned by a major US player in the dental healthcare space and our systems play a crucial role in their day-to-day operations. 
+This is a permanent, full-time position in Berlin, Germany, requiring on-site presence; we are not presently offering visa sponsorship. 
+We are very interested in increasing the diversity of our team, so please do not hesitate to apply especially if you&#039;re not a white male!ion to pave the path from prototype to product.</p>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9086-software-developer-flowerpilot-m-f-at-lambdawerk-gmbh">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Senior Full Stack Software Engineer at CircleCI (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9085-senior-full-stack-software-engineer-at-circleci" ></link>
+<id>urn:uuid:dd11d3cf-aaf0-056a-9246-33ebfa1957b3</id>
+<updated>2018-05-12T16:27:05-04:00</updated>
+<summary type="html" ><![CDATA[<p>CircleCI is looking for an experienced full stack software engineer to help us develop a seamless user experience. You will work closely with Product and Design to ensure developers who interact with CircleCI via the web have a consistent and streamlined experience from the first time they touch the site.</p>
+
+<p>At CircleCI you will be working with a team who values trust, respect, and diversity. We are a globally distributed team working towards the common goal of being the standard bearer for continuous integration and deployment software. We are remote friendly, and are looking for people who are passionate about helping shape software engineering best practices for the industry as a whole.</p>
+
+<p>To thrive in this role you are someone who works well in teams, and enjoys collaborating. Furthermore you have experience in onboarding, engaging, and retaining users through their journey on various platforms. You enjoy working with Product and Design to find the best solution to the problem at hand, and balance technical tradeoffs with delivering customer value quickly and iteratively. Experience with Growth Engineering a plus.</p>
+
+<p><strong>About CircleCI</strong></p>
+
+<p>CircleCI is the best platform for software teams looking to rapidly build quality projects, at scale. Our intelligent continuous integration and delivery tools are simple yet powerful. Our aim is to provide the wisdom of a connected development ecosystem to every team member making technology decisions.</p>
+
+<p>We run 7M+ builds a month on our platform for companies like Spotify, Kickstarter, Sony, and Coinbase. Over 25,000 organizations and 300,000 developers actively build, test, and deploy on CircleCI.  We&rsquo;ve raised $59.5M in venture capital from Industry Ventures, Top Tier Capital, Scale Venture Partners, DFJ, Harrison Metal Capital, and Baseline Ventures. </p>
+
+<p><strong>About This Role</strong></p>
+
+<ul>
+<li>Work closely with Product to ensure delivery of high value customer facing features</li>
+<li>Work on cross-functional, feature-driven engineering teams</li>
+<li>Drive the direction of the UI and UX of our web app, as well as the technical direction of our frontend architecture</li>
+<li>Own microservices throughout their entire lifecycle, from the first lines of code through deployment, production monitoring, and maintenance</li>
+<li>Help shape how we design, release, and maintain microservices, and our single page application</li>
+<li>Work in Clojure on the backend, and JavaScript in React on the frontend, on a daily basis</li>
+</ul>
+
+<p><strong>You Have</strong></p>
+
+<ul>
+<li>3+ years of production development experience</li>
+<li>Experience developing single page applications</li>
+<li>Experience working on server side application code</li>
+<li>Experience with and appreciation for the functional programming paradigm</li>
+<li>Articulate UI and UX opinions, especially in regards to platforms and funnel dynamics</li>
+<li>A deep appreciation for and abilities to support your development with appropriate testing</li>
+</ul>
+
+<p><strong>You Enjoy</strong></p>
+
+<ul>
+<li>Working in a highly collaborative environment</li>
+<li>Supporting an environment that values trust, respect, and diversity</li>
+<li>Exploring different methods for efficiently delivering code and customer value</li>
+<li>Delivering value to customers</li>
+<li>Sharing your expertise and encouraging best practices</li>
+</ul>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9085-senior-full-stack-software-engineer-at-circleci">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Principal Software Engineer at CircleCI (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9084-principal-software-engineer-at-circleci" ></link>
+<id>urn:uuid:702b955e-f5ba-613d-56b5-86a6de410f89</id>
+<updated>2018-05-12T16:27:04-04:00</updated>
+<summary type="html" ><![CDATA[<p>CircleCI is looking for an experienced engineering leader to help us guide the evolution of our platform architecture. In this role, you will work with the entire Engineering organization to help cross-functional teams create designs that fit their business and technical needs while ensuring architectural consistency.</p>
+
+<p>At CircleCI you will be working with a team who values trust, respect, and diversity. We are a globally distributed team working towards the common goal of being the standard bearer for continuous integration and deployment software. We are remote-friendly, and are looking for people who are passionate about helping shape software engineering best practices for the industry as a whole. While we can support a remote role anywhere you also have the option to work out of our Toronto or San Francisco office. </p>
+
+<p>To thrive in this role you are someone who works well in teams and enjoys collaborating. Furthermore, you understand the business impact of your code and enjoy incorporating the business objectives into your approach to development. You enjoy working with Product to find the best solution to the problem at hand, and can balance technical tradeoffs with delivering customer value quickly and iteratively.</p>
+
+<p><strong>About CircleCI</strong></p>
+
+<p>CircleCI is the best platform for software teams looking to rapidly build quality projects, at scale. Our intelligent continuous integration and delivery tools are simple yet powerful. Our aim is to provide the wisdom of a connected development ecosystem to every team member making technology decisions.</p>
+
+<p>We run 7M+ builds a month on our platform for companies like Spotify, Kickstarter, Sony, and Coinbase. Over 25,000 organizations and 300,000 developers actively build, test, and deploy on CircleCI.  We&rsquo;ve raised $59.5M in venture capital from Industry Ventures, Top Tier Capital, Scale Venture Partners, DFJ, Harrison Metal Capital, and Baseline Ventures. </p>
+
+<p><strong>About this role</strong></p>
+
+<ul>
+<li>Map technology trends into technical requirements</li>
+<li>Evaluate products and make buy vs build decisions</li>
+<li>Coach/train teams on complex technical subjects</li>
+<li>Scope initiatives based on high-level product conversations</li>
+<li>Shape how we design, release, and maintain microservices</li>
+<li>Work closely with Product to ensure delivery of high value customer facing features</li>
+<li>Work on cross-functional, feature-driven engineering teams</li>
+</ul>
+
+<p><strong>About you</strong></p>
+
+<ul>
+<li>Experience designing across architectural styles to fit the needs of the business</li>
+<li>Deep understanding of modern software development, including agile,</li>
+<li>CI/CD, and infrastructure-as-code</li>
+<li>Strong understanding of the business impact of your work</li>
+<li>Experience with microservice architectures</li>
+<li>Experience with functional programing</li>
+<li>10+ years of development experience</li>
+</ul>
+
+<p><strong>You enjoy</strong></p>
+
+<ul>
+<li>Working in a highly collaborative environment</li>
+<li>Supporting an environment that values trust, respect, and diversity</li>
+<li>Exploring different methods for efficiently delivering code and customer value</li>
+<li>Delivering value to customers</li>
+<li>Sharing your expertise and encouraging best practices</li>
+</ul>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9084-principal-software-engineer-at-circleci">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[Damn Good Developer at Reaktor (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9083-damn-good-developer-at-reaktor" ></link>
+<id>urn:uuid:a6509ad0-df04-6f43-9daf-0dacd1a61e3d</id>
+<updated>2018-05-02T04:42:04-04:00</updated>
+<summary type="html" ><![CDATA[<p>Reaktor is a global strategy, design, and engineering company, with a one-year-old (yay!) office in Amsterdam. <strong>Our team is currently looking for developers who are really, truly, damn good.</strong></p>
+
+<p>We are in the business of making our clients (AFKLM, HBO, Michael Kors, Supercell, Sanoma, to name a few) succeed in their digital ventures. Our teams in Amsterdam, New York City, Helsinki, and Tokyo consist of propellerheads who do everything from hardcore software development to sophisticated brand and concept design.</p>
+
+<p>The Amsterdam squad is essentially a small bunch of settlers who operate with the support of an international company. We love going to meetups, drinking sour ales in De Pijp, and kicking it with some of the biggest consumer brands out there.</p>
+
+<p><strong>What we&rsquo;ve got for you:</strong></p>
+
+<ul>
+<li>Let&rsquo;s be real. Compared to the mothership in Helsinki, we&rsquo;re still on the side of minuscule. But! Our projects are bigger than us, and you will be working in a team of 4 to 8 top-notch Reaktorians.</li>
+<li>When we hire you, we trust you. That means you call the shots when it comes to selecting your gear, tech, and ways of working.</li>
+<li>We try our darnedest to make sure that every morning, you&rsquo;ll come to work with a smile on your face, feeling like you can make a difference.</li>
+<li>Naturally, necessities like equipment and compensation will be taken care of in a manner that all parties maintain said smile.</li>
+<li>We promise to send you to the Great White North (Finland) for orientation (bring a winter jacket). There&rsquo;s a chance we&rsquo;ll send you somewhere else as well if you like (jacket recommendation still open).</li>
+</ul>
+
+<p><strong>What you need to win the game:</strong></p>
+
+<p>Mad skill in at least a few programming languages you like. Here are some things we are currently drooling over: <strong>functional programming, Node.js, Clojure, React, Swift, SQL, NoSQL, general bleeding edge stuff.</strong>
+- Willingness to be responsible for your work, development and career path. Don&rsquo;t worry: we&rsquo;ll have your back in whatever you want to achieve, only it&rsquo;s up to you to keep the end goal straight.
+- Burning desire to improve, grow, get better, <em>insert more synonyms</em>. It&rsquo;s okay to not be perfect.</p>
+
+<p>All in all, we&rsquo;re a simple lot. We believe in continuous learning, rapid iterations, and <a href="https://www.reaktor.com/blog/dear-client-our-autonomy-competitive-advantage/">fully autonomic teams that have the means to accomplish their goals and make their own decisions</a>. We don&rsquo;t believe in unnecessary hierarchy, bureaucracy, staying in the comfort zone.</p>
+
+<p>Does all this resonate with you? If so, we can&rsquo;t wait to meet up.</p>
+
+<p>Details of any open source projects, GitHub/GitLab/Bitbucket repositories, and whatever else you deem necessary, are highly regarded. If you&rsquo;re still unsure, <a href="https://www.reaktor.com/blog/magical_fairy_land/">let Adam explain what you can expect from interviewing with us</a>.</p>
+
+<p>Love,</p>
+
+<p>Your new team</p>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9083-damn-good-developer-at-reaktor">how to apply</a> for this position.</p>]]></summary>
+</entry>
+<entry>
+<title type="html" ><![CDATA[OCaml server-side developer at Ahrefs (Full-time)]]></title>
+<link href="https://functionaljobs.com/jobs/9026-ocaml-server-side-developer-at-ahrefs" ></link>
+<id>urn:uuid:cd0aa60f-367a-6a20-cf75-da1cbadc517c</id>
+<updated>2017-06-30T15:59:39-04:00</updated>
+<summary type="html" ><![CDATA[<h2>What we need</h2>
+
+<p>Ahrefs is looking for a backend developer with a deep understanding of networks, distributed systems, OS fundamentals and taste for simple and efficient architectural designs. Our backend is implemented mostly in OCaml and some C++, as such proficiency in OCaml is very much appreciated, otherwise a strong inclination to intensively learn OCaml in a short term will be required. Understanding of functional programming in general and/or experience with other FP languages (F#,Haskell,Scala,Scheme,etc) will help a lot. Knowledge of C++ and/or Rust is a plus.</p>
+
+<p>Every day the candidate will have to deal with:</p>
+
+<ul>
+<li>10+ petabytes of live data</li>
+<li>OCaml</li>
+<li>linux</li>
+<li>git</li>
+</ul>
+
+<p>The ideal candidate is expected to:</p>
+
+<ul>
+<li>Independently deal with bugs, schedule tasks and investigate code</li>
+<li>Make argumented technical choice and take responsibility for it</li>
+<li>Understand the whole technology stack at all levels : from network and userspace code to OS internals and hardware</li>
+<li>Handle full development cycle of a single component - i.e. formalize task, write code and tests, setup and support production (devops), resolve user requests</li>
+<li>Approach problems with practical mindset and suppress perfectionism when time is a priority</li>
+<li>Write flexible maintainable code and adapt to post-launch requirements&rsquo; tweaks </li>
+</ul>
+
+<p>These requirements stem naturally from our approach to development with fast feedback cycle, highly-focused personal areas of responsibility and strong tendency to vertical component splitting.</p>
+
+<h2>Who we are</h2>
+
+<p>Ahrefs runs an internet-scale bot that crawls the whole Web 24/7, storing huge volumes of information to be indexed and structured in a timely fashion. Backend system is powered by a custom petabyte-scale distributed key-value storage to accommodate all that data coming in at high speed. The storage system is implemented in OCaml with thin  performance-critical low-level part in C++. On top of that Ahrefs is building various analytical services for end-users.</p>
+
+<p>We are a small team and strongly believe in better technology leading to better solutions for real-world problems. We worship functional languages and static typing, extensively employ code generation and meta-programming, value code clarity and predictability, and are constantly seeking to automate repetitive tasks and eliminate boilerplate, guided by DRY and following KISS. If there is any new technology that will make our life easier - no doubt, we&#039;ll give it a try. We rely heavily on opensource code (as the only viable way to build maintainable system) and contribute back, see e.g. https://github.com/ahrefs . It goes without saying that our team is all passionate and experienced OCaml programmers, ready to lend a hand and explain that intricate ocamlbuild rule or track a <a href="https://tech.ahrefs.com/skylake-bug-a-detective-story-ab1ad2beddcd">CPU bug</a>.</p>
+
+<p>Our motto is &quot;first do it, then do it right, then do it better&quot;.</p>
+
+<h2>What you get</h2>
+
+<p>We provide:</p>
+
+<ul>
+<li>Competitive salary</li>
+<li>Informal and thriving atmosphere</li>
+<li>First-class workplace equipment (hardware, tools)</li>
+<li>Medical insurance</li>
+</ul>
+
+<h2>Locations</h2>
+
+<p>Singapore : modern office in CBD</p>
+
+<p>USA : cozy loft in San Francisco downtown</p>
+<p>Get information on <a href="https://functionaljobs.com/jobs/9026-ocaml-server-side-developer-at-ahrefs">how to apply</a> for this position.</p>]]></summary>
+</entry>
+</feed>

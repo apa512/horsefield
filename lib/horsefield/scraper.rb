@@ -57,7 +57,7 @@ module Horsefield
         end
       end
 
-      def one(name, selector, lookup = :optional, &block)
+      def one(name, selector = nil, lookup = :optional, &block)
         self.lookups << lambda { |doc| doc.one(name, selector, lookup, &block) }
       end
 
