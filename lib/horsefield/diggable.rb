@@ -24,7 +24,20 @@ module Horsefield
       raise MissingSelectorError, "Couldn't find required selector (#{selector})" if lookup == :required && !doc
       return fields if lookup == :presence && !doc
 
-      fields.merge!(Hash[[[name, doc && doc.with_fresh_fields.instance_eval(&processor(&block))]]])
+      if block
+        # Process the sub-document
+        sub_doc = doc && doc.with_fresh_fields
+        
+        # Run the block to populate fields and get its return value
+        return_value = sub_doc && sub_doc.instance_eval(&block)
+        
+        # Use fields if they were populated, otherwise use the block's return value
+        value = (sub_doc && !sub_doc.fields.empty?) ? sub_doc.fields : return_value
+        
+        fields.merge!(Hash[[[name, value]]])
+      else
+        fields.merge!(Hash[[[name, doc && doc.text.strip]]])
+      end
     end
 
     def many!(name, selector, &block)

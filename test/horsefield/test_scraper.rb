@@ -1,8 +1,18 @@
-require 'test_helper'
+require_relative '../test_helper'
 require 'pry'
 
 class RedditScraper
   include Horsefield::Scraper
+
+  one :meta do
+    [:keywords].each do |name|
+      one name, ".//meta[@name='#{name}']/@content"
+    end
+  end
+
+  one :static do
+    "test"
+  end
 
   many :posts, '#siteTable .thing' do
     one :title, 'a.title'
@@ -24,6 +34,8 @@ class TestScraper < Minitest::Test
 
   def test_scraper
     reddit = RedditScraper.new(@reddit_html).scrape
-    p reddit[:posts].first[:tagline]
+    assert_equal "reddit, reddit.com, vote, comment, submit", reddit[:meta][:keywords]
+    assert_equal "Chris Pratt, homeless, living in this van, holding the script to his first acting job", reddit[:posts][0][:title]
+    assert_equal "test", reddit[:static]
   end
 end
