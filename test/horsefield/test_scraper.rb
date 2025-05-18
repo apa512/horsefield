@@ -5,7 +5,7 @@ class RedditScraper
   include Horsefield::Scraper
 
   one :meta do
-    [:keywords].each do |name|
+    [:keywords, :description].each do |name|
       one name, ".//meta[@name='#{name}']/@content"
     end
   end
@@ -35,6 +35,7 @@ class TestScraper < Minitest::Test
   def test_scraper
     reddit = RedditScraper.new(@reddit_html).scrape
     assert_equal "reddit, reddit.com, vote, comment, submit", reddit[:meta][:keywords]
+    assert_equal "reddit: the front page of the internet", reddit[:meta][:description]
     assert_equal "Chris Pratt, homeless, living in this van, holding the script to his first acting job", reddit[:posts][0][:title]
     assert_equal "test", reddit[:static]
   end
